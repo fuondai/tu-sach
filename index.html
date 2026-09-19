@@ -10,8 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
-  <script type="module" crossorigin src="./assets/index-CbNPJ8rT.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-TpX3-lXr.css">
+  <script type="module" crossorigin src="./assets/index-BxSVOwLE.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-EpU-CUwk.css">
 </head>
 <body data-theme="sepia" data-font="serif" data-width="medium" data-mode="scroll" class="paper-texture-active">
   <div id="reading-progress-container">
@@ -62,11 +62,18 @@
         </div>
       </div>
 
-      <div class="shelf-tabs-bar">
-        <button class="shelf-tab active" data-shelf="all" type="button">Tất cả tác phẩm</button>
-        <button class="shelf-tab" data-shelf="recommend" type="button">Đề xuất chọn lọc</button>
-        <button class="shelf-tab" data-shelf="saved" type="button">Đã lưu đọc sau (<span id="saved-shelf-count">0</span>)</button>
-        <button class="shelf-tab" data-shelf="history" type="button">Lịch sử đọc</button>
+      <div class="shelf-tabs-container">
+        <div class="shelf-tabs-bar">
+          <button class="shelf-tab active" data-shelf="all" type="button">Tất cả tác phẩm</button>
+          <button class="shelf-tab" data-shelf="recommend" type="button">Đề xuất chọn lọc</button>
+          <button class="shelf-tab" data-shelf="saved" type="button">Đã lưu đọc sau (<span id="saved-shelf-count">0</span>)</button>
+          <button class="shelf-tab" data-shelf="history" type="button">Lịch sử đọc</button>
+        </div>
+        <div class="grid-layout-controls">
+          <button class="grid-layout-btn active" data-grid-layout="comfort" type="button" title="Hiển thị lưới lớn đầy đủ tiêu đề">Lưới lớn</button>
+          <button class="grid-layout-btn" data-grid-layout="compact" type="button" title="Hiển thị lưới tiêu chuẩn">Tiêu chuẩn</button>
+          <button class="grid-layout-btn" data-grid-layout="list" type="button" title="Hiển thị dạng danh sách hàng ngang">Danh sách</button>
+        </div>
       </div>
 
       <div id="featured-spotlight-area" class="featured-spotlight-area"></div>
