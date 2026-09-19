@@ -9,7 +9,7 @@ const state = {
     searchQuery: "",
     theme: localStorage.getItem("dxts_theme") || "sepia",
     font: localStorage.getItem("dxts_font") || "serif",
-    fontSize: parseInt(localStorage.getItem("dxts_font_size") || "18", 10),
+    fontSize: parseInt(localStorage.getItem("dxts_font_size") || "22", 10),
     lineHeight: localStorage.getItem("dxts_line_height") || "1.9",
     readerWidth: localStorage.getItem("dxts_reader_width") || "medium"
 };
@@ -63,14 +63,30 @@ const dom = {
     btnIncFont: document.getElementById("btn-inc-font"),
     btnQuickFontDec: document.getElementById("btn-quick-font-dec"),
     btnQuickFontInc: document.getElementById("btn-quick-font-inc"),
-    currentFontSizeText: document.getElementById("current-font-size-text")
+    currentFontSizeText: document.getElementById("current-font-size-text"),
+    fontToast: document.getElementById("font-toast")
 };
+
+let fontToastTimer = null;
+function showFontToast(text) {
+    if (!dom.fontToast) return;
+    dom.fontToast.textContent = text;
+    dom.fontToast.classList.remove("hidden");
+    clearTimeout(fontToastTimer);
+    fontToastTimer = setTimeout(() => {
+        dom.fontToast.classList.add("hidden");
+    }, 1200);
+}
 
 function applyVisualSettings() {
     dom.body.setAttribute("data-theme", state.theme);
     dom.body.setAttribute("data-font", state.font);
     dom.body.setAttribute("data-width", state.readerWidth);
+    document.documentElement.style.setProperty("--font-size", `${state.fontSize}px`);
     dom.body.style.setProperty("--font-size", `${state.fontSize}px`);
+    if (dom.chapterContentBody) {
+        dom.chapterContentBody.style.fontSize = `${state.fontSize}px`;
+    }
     dom.body.style.setProperty("--line-height", state.lineHeight);
     dom.currentFontSizeText.textContent = `${state.fontSize}px`;
 
@@ -414,6 +430,8 @@ async function loadChapter(slug, num) {
             }
         });
         dom.chapterContentBody.appendChild(frag);
+        dom.chapterContentBody.style.fontSize = `${state.fontSize}px`;
+        dom.chapterContentBody.style.lineHeight = state.lineHeight;
 
         document.title = `${data.title} - ${state.currentStory.title}`;
         updateReadingProgress();
@@ -603,12 +621,11 @@ function setupEventListeners() {
     });
 
     const changeFontSize = (delta) => {
-        const nextSize = Math.max(16, Math.min(36, state.fontSize + delta));
-        if (nextSize !== state.fontSize) {
-            state.fontSize = nextSize;
-            localStorage.setItem("dxts_font_size", state.fontSize);
-            applyVisualSettings();
-        }
+        const nextSize = Math.max(16, Math.min(38, state.fontSize + delta * 2));
+        state.fontSize = nextSize;
+        localStorage.setItem("dxts_font_size", state.fontSize);
+        applyVisualSettings();
+        showFontToast(`Cỡ chữ: ${state.fontSize}px`);
     };
 
     dom.btnDecFont.addEventListener("click", () => changeFontSize(-1));
