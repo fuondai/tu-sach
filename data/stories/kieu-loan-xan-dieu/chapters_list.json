@@ -1,0 +1,642 @@
+[
+  {
+    "chapter_num": 1,
+    "title": "Chương 1: Đào Hôn",
+    "char_count": 18977
+  },
+  {
+    "chapter_num": 2,
+    "title": "Chương 2: Đông Cung",
+    "char_count": 11513
+  },
+  {
+    "chapter_num": 3,
+    "title": "Chương 3: Thái tử",
+    "char_count": 20775
+  },
+  {
+    "chapter_num": 4,
+    "title": "Chương 4: Áp Bức",
+    "char_count": 18646
+  },
+  {
+    "chapter_num": 5,
+    "title": "Chương 5: Ở Lại",
+    "char_count": 12884
+  },
+  {
+    "chapter_num": 6,
+    "title": "Chương 6: Sống Cùng",
+    "char_count": 18556
+  },
+  {
+    "chapter_num": 7,
+    "title": "Chương 7: Ca Ca",
+    "char_count": 12279
+  },
+  {
+    "chapter_num": 8,
+    "title": "Chương 8: Lục Soát Cung Điện",
+    "char_count": 14442
+  },
+  {
+    "chapter_num": 9,
+    "title": "Chương 9: Thân Thế",
+    "char_count": 11909
+  },
+  {
+    "chapter_num": 10,
+    "title": "Chương 10: Gần Gũi",
+    "char_count": 13925
+  },
+  {
+    "chapter_num": 11,
+    "title": "Chương 11: Tàng Kiều",
+    "char_count": 11283
+  },
+  {
+    "chapter_num": 12,
+    "title": "Chương 12: Lương Nhân",
+    "char_count": 10109
+  },
+  {
+    "chapter_num": 13,
+    "title": "Chương 13: Ôm Muội",
+    "char_count": 11771
+  },
+  {
+    "chapter_num": 14,
+    "title": "Chương 14: Họa Thủy",
+    "char_count": 9912
+  },
+  {
+    "chapter_num": 15,
+    "title": "Chương 15: Thị Thiếp",
+    "char_count": 10286
+  },
+  {
+    "chapter_num": 16,
+    "title": "Chương 16: Lừa Dối Muội",
+    "char_count": 9401
+  },
+  {
+    "chapter_num": 17,
+    "title": "Chương 17: Muội Muội",
+    "char_count": 10875
+  },
+  {
+    "chapter_num": 18,
+    "title": "Chương 18: Đêm Mưa",
+    "char_count": 10200
+  },
+  {
+    "chapter_num": 19,
+    "title": "Chương 19: Nghiệt Chủng",
+    "char_count": 10432
+  },
+  {
+    "chapter_num": 20,
+    "title": "Chương 20: Huyết Thư",
+    "char_count": 11629
+  },
+  {
+    "chapter_num": 21,
+    "title": "Chương 21: Bại Lộ",
+    "char_count": 10902
+  },
+  {
+    "chapter_num": 22,
+    "title": "Chương 22: Súc Sinh",
+    "char_count": 33088
+  },
+  {
+    "chapter_num": 23,
+    "title": "Chương 23: U Ám",
+    "char_count": 11851
+  },
+  {
+    "chapter_num": 24,
+    "title": "Chương 24: Nhẫn Tâm",
+    "char_count": 11148
+  },
+  {
+    "chapter_num": 25,
+    "title": "Chương 25: Cưỡng Ép",
+    "char_count": 15861
+  },
+  {
+    "chapter_num": 26,
+    "title": "Chương 26: Huyết Sắc",
+    "char_count": 17375
+  },
+  {
+    "chapter_num": 27,
+    "title": "Chương 27: Lời Đồn",
+    "char_count": 11385
+  },
+  {
+    "chapter_num": 28,
+    "title": "Chương 28: Tuyển Chọn",
+    "char_count": 13571
+  },
+  {
+    "chapter_num": 29,
+    "title": "Chương 29: Mẫu Phi",
+    "char_count": 12898
+  },
+  {
+    "chapter_num": 30,
+    "title": "Chương 30: Ôm Lấy",
+    "char_count": 11680
+  },
+  {
+    "chapter_num": 31,
+    "title": "Chương 31: Ngụy Gia Tam Lang",
+    "char_count": 12333
+  },
+  {
+    "chapter_num": 32,
+    "title": "Chương 32: Ngọc Túc",
+    "char_count": 12864
+  },
+  {
+    "chapter_num": 33,
+    "title": "Chương 33: Tỏ Tình",
+    "char_count": 14250
+  },
+  {
+    "chapter_num": 34,
+    "title": "Chương 34: Ôm Đau",
+    "char_count": 11708
+  },
+  {
+    "chapter_num": 35,
+    "title": "Chương 35: Cưỡng Đoạt",
+    "char_count": 13136
+  },
+  {
+    "chapter_num": 36,
+    "title": "Chương 36: Say Rượu",
+    "char_count": 20748
+  },
+  {
+    "chapter_num": 37,
+    "title": "Chương 37: Hôn Sự",
+    "char_count": 16025
+  },
+  {
+    "chapter_num": 38,
+    "title": "Chương 38: Cứu Mỹ Nhân",
+    "char_count": 16819
+  },
+  {
+    "chapter_num": 39,
+    "title": "Chương 39",
+    "char_count": 17313
+  },
+  {
+    "chapter_num": 40,
+    "title": "Chương 40: Phò Mã",
+    "char_count": 16709
+  },
+  {
+    "chapter_num": 41,
+    "title": "Chương 41: Vọng Niệm",
+    "char_count": 14853
+  },
+  {
+    "chapter_num": 42,
+    "title": "Chương 42: Khuyên Tai",
+    "char_count": 14501
+  },
+  {
+    "chapter_num": 43,
+    "title": "Chương 43: Bí Mật",
+    "char_count": 19323
+  },
+  {
+    "chapter_num": 44,
+    "title": "Chương 44: Bất Kính",
+    "char_count": 10418
+  },
+  {
+    "chapter_num": 45,
+    "title": "Chương 45: Hôn Lễ",
+    "char_count": 11885
+  },
+  {
+    "chapter_num": 46,
+    "title": "Chương 46: Hỉ Phòng",
+    "char_count": 20003
+  },
+  {
+    "chapter_num": 47,
+    "title": "Chương 47: Bùng Nổ",
+    "char_count": 16188
+  },
+  {
+    "chapter_num": 48,
+    "title": "Chương 48: Thê Tử",
+    "char_count": 11136
+  },
+  {
+    "chapter_num": 49,
+    "title": "Chương 49: Trừng Phạt",
+    "char_count": 14325
+  },
+  {
+    "chapter_num": 50,
+    "title": "Chương 50: Chim Sẻ",
+    "char_count": 16562
+  },
+  {
+    "chapter_num": 51,
+    "title": "Chương 51: Không Trong Sáng",
+    "char_count": 19836
+  },
+  {
+    "chapter_num": 52,
+    "title": "Chương 52: Khuê Phòng",
+    "char_count": 12059
+  },
+  {
+    "chapter_num": 53,
+    "title": "Chương 53: Quyến Luyến",
+    "char_count": 13867
+  },
+  {
+    "chapter_num": 54,
+    "title": "Chương 54: Vật Riêng Tư",
+    "char_count": 16674
+  },
+  {
+    "chapter_num": 55,
+    "title": "Chương 55: Nhà Vàng",
+    "char_count": 15179
+  },
+  {
+    "chapter_num": 56,
+    "title": "Chương 56: Lạc Ấn (Dấu Ấn)",
+    "char_count": 13762
+  },
+  {
+    "chapter_num": 57,
+    "title": "Chương 57: Ỷ Lại",
+    "char_count": 9237
+  },
+  {
+    "chapter_num": 58,
+    "title": "Chương 58: Giày Vò",
+    "char_count": 10316
+  },
+  {
+    "chapter_num": 59,
+    "title": "Chương 59: Sứ Thần",
+    "char_count": 28320
+  },
+  {
+    "chapter_num": 60,
+    "title": "Chương 60: Liên Hôn",
+    "char_count": 13816
+  },
+  {
+    "chapter_num": 61,
+    "title": "Chương 61: Gặp Gỡ Trong Đêm",
+    "char_count": 16516
+  },
+  {
+    "chapter_num": 62,
+    "title": "Chương 62: Tranh Giành",
+    "char_count": 17417
+  },
+  {
+    "chapter_num": 63,
+    "title": "Chương 63: Manh Mối",
+    "char_count": 21347
+  },
+  {
+    "chapter_num": 64,
+    "title": "Chương 64: Bạc Đầu",
+    "char_count": 20451
+  },
+  {
+    "chapter_num": 65,
+    "title": "Chương 65: Nồng Nhiệt",
+    "char_count": 10429
+  },
+  {
+    "chapter_num": 66,
+    "title": "Chương 66: Tiếng Xấu",
+    "char_count": 18740
+  },
+  {
+    "chapter_num": 67,
+    "title": "Chương 67: Phát Giác",
+    "char_count": 10240
+  },
+  {
+    "chapter_num": 68,
+    "title": "Chương 68: Hồi Triều",
+    "char_count": 16531
+  },
+  {
+    "chapter_num": 69,
+    "title": "Chương 69: Vực Sâu",
+    "char_count": 16244
+  },
+  {
+    "chapter_num": 70,
+    "title": "Chương 70: Váy Lụa",
+    "char_count": 14857
+  },
+  {
+    "chapter_num": 71,
+    "title": "Chương 71: Rùng Mình",
+    "char_count": 13090
+  },
+  {
+    "chapter_num": 72,
+    "title": "Chương 72: Quyết Định",
+    "char_count": 12874
+  },
+  {
+    "chapter_num": 73,
+    "title": "Chương 73: Quyết Biệt",
+    "char_count": 14611
+  },
+  {
+    "chapter_num": 74,
+    "title": "Chương 74: Tây Bắc",
+    "char_count": 13631
+  },
+  {
+    "chapter_num": 75,
+    "title": "Chương 75: Hòa Thân",
+    "char_count": 15205
+  },
+  {
+    "chapter_num": 76,
+    "title": "Chương 76: Nhòm Ngó",
+    "char_count": 9689
+  },
+  {
+    "chapter_num": 77,
+    "title": "Chương 77: Biến Cố Đêm Khuya",
+    "char_count": 13895
+  },
+  {
+    "chapter_num": 78,
+    "title": "Chương 78: Áo Cưới",
+    "char_count": 19718
+  },
+  {
+    "chapter_num": 79,
+    "title": "Chương 79: Đêm Động Phòng",
+    "char_count": 20924
+  },
+  {
+    "chapter_num": 80,
+    "title": "Chương 80: Cướp Hôn",
+    "char_count": 14412
+  },
+  {
+    "chapter_num": 81,
+    "title": "Chương 81: Thiêu Thân",
+    "char_count": 14503
+  },
+  {
+    "chapter_num": 82,
+    "title": "Chương 82: Xiềng Xích",
+    "char_count": 16074
+  },
+  {
+    "chapter_num": 83,
+    "title": "Chương 83: Con Mồi",
+    "char_count": 13214
+  },
+  {
+    "chapter_num": 84,
+    "title": "Chương 84: Hắc Hóa",
+    "char_count": 14799
+  },
+  {
+    "chapter_num": 85,
+    "title": "Chương 85: Nhịp Tim",
+    "char_count": 16868
+  },
+  {
+    "chapter_num": 86,
+    "title": "Chương 86: Hồi Môn",
+    "char_count": 15994
+  },
+  {
+    "chapter_num": 87,
+    "title": "Chương 87: Âm Trầm",
+    "char_count": 10650
+  },
+  {
+    "chapter_num": 88,
+    "title": "Chương 88: Ôm Ôm",
+    "char_count": 8392
+  },
+  {
+    "chapter_num": 89,
+    "title": "Chương 89: Sinh nhật",
+    "char_count": 13593
+  },
+  {
+    "chapter_num": 90,
+    "title": "Chương 90: Bù Đắp",
+    "char_count": 11948
+  },
+  {
+    "chapter_num": 91,
+    "title": "Chương 91: E Sợ",
+    "char_count": 12392
+  },
+  {
+    "chapter_num": 92,
+    "title": "Chương 92: Xuất Quan",
+    "char_count": 19076
+  },
+  {
+    "chapter_num": 93,
+    "title": "Chương 93: Hồng Trần",
+    "char_count": 14067
+  },
+  {
+    "chapter_num": 94,
+    "title": "Chương 94: Biển Khổ",
+    "char_count": 10549
+  },
+  {
+    "chapter_num": 95,
+    "title": "Chương 95: Vĩnh Hằng",
+    "char_count": 17066
+  },
+  {
+    "chapter_num": 96,
+    "title": "Chương 96: Tình Ý",
+    "char_count": 11073
+  },
+  {
+    "chapter_num": 97,
+    "title": "Chương 97: Tương Phùng",
+    "char_count": 13118
+  },
+  {
+    "chapter_num": 98,
+    "title": "Chương 98: Lời Hứa",
+    "char_count": 18086
+  },
+  {
+    "chapter_num": 99,
+    "title": "Chương 99: Ngây Ngô",
+    "char_count": 12846
+  },
+  {
+    "chapter_num": 100,
+    "title": "Chương 100: Dưới Trăng",
+    "char_count": 11626
+  },
+  {
+    "chapter_num": 101,
+    "title": "Chương 101: Nhớ Chàng",
+    "char_count": 10985
+  },
+  {
+    "chapter_num": 102,
+    "title": "Chương 102: Đại Kết Cục",
+    "char_count": 28961
+  },
+  {
+    "chapter_num": 103,
+    "title": "Chương 103: Ngoại Truyện 1",
+    "char_count": 13508
+  },
+  {
+    "chapter_num": 104,
+    "title": "Chương 104: Ngoại Truyện 2",
+    "char_count": 22839
+  },
+  {
+    "chapter_num": 105,
+    "title": "Chương 105: Ngoại Truyện 3",
+    "char_count": 10994
+  },
+  {
+    "chapter_num": 106,
+    "title": "Chương 106: Ngoại Truyện 4",
+    "char_count": 12859
+  },
+  {
+    "chapter_num": 107,
+    "title": "Chương 107: Ngoại Truyện 5",
+    "char_count": 10508
+  },
+  {
+    "chapter_num": 108,
+    "title": "Chương 108: Ngoại Truyện 6",
+    "char_count": 14277
+  },
+  {
+    "chapter_num": 109,
+    "title": "Chương 109: Ngoại Truyện 7",
+    "char_count": 10870
+  },
+  {
+    "chapter_num": 110,
+    "title": "Chương 110: Ngoại Truyện 8",
+    "char_count": 18210
+  },
+  {
+    "chapter_num": 111,
+    "title": "Chương 111: Ngoại Truyện · Phù Sinh Mộng 1",
+    "char_count": 17139
+  },
+  {
+    "chapter_num": 112,
+    "title": "Chương 112: Ngoại Truyện · Phù Sinh Mộng 2",
+    "char_count": 15832
+  },
+  {
+    "chapter_num": 113,
+    "title": "Chương 113: Ngoại Truyện · Phù Sinh Mộng 3",
+    "char_count": 11789
+  },
+  {
+    "chapter_num": 114,
+    "title": "Chương 114: Ngoại Truyện · Phù Sinh Mộng 4",
+    "char_count": 16127
+  },
+  {
+    "chapter_num": 115,
+    "title": "Chương 115: Phiên Ngoại · Phù Sinh Mộng 5",
+    "char_count": 18237
+  },
+  {
+    "chapter_num": 116,
+    "title": "Chương 116: Phiên Ngoại · Phù Sinh Mộng 6",
+    "char_count": 20063
+  },
+  {
+    "chapter_num": 117,
+    "title": "Chương 117: Phiên Ngoại - Phù Sinh Mộng 7",
+    "char_count": 15168
+  },
+  {
+    "chapter_num": 118,
+    "title": "Chương 118: Phiên Ngoại - Phù Sinh Mộng 8",
+    "char_count": 13140
+  },
+  {
+    "chapter_num": 119,
+    "title": "Chương 119: Phiên Ngoại - Phù Sinh Mộng 9",
+    "char_count": 13358
+  },
+  {
+    "chapter_num": 120,
+    "title": "Chương 120: Phiên Ngoại - Phù Sinh Mộng 10",
+    "char_count": 10476
+  },
+  {
+    "chapter_num": 121,
+    "title": "Chương 121: Phiên Ngoại - Phù Sinh Mộng 11",
+    "char_count": 14040
+  },
+  {
+    "chapter_num": 122,
+    "title": "Chương 122: Phiên Ngoại - Phù Sinh Mộng 12",
+    "char_count": 13634
+  },
+  {
+    "chapter_num": 123,
+    "title": "Chương 123: Phiên Ngoại - Phù Sinh Mộng 13",
+    "char_count": 14888
+  },
+  {
+    "chapter_num": 124,
+    "title": "Chương 124: Phiên Ngoại - Phù Sinh Mộng 14",
+    "char_count": 11656
+  },
+  {
+    "chapter_num": 125,
+    "title": "Chương 125: Ngoại Truyện · Phù Sinh Mộng 15",
+    "char_count": 25261
+  },
+  {
+    "chapter_num": 126,
+    "title": "Chương 126: Ngoại Truyện · Phù Sinh Mộng 16",
+    "char_count": 11713
+  },
+  {
+    "chapter_num": 127,
+    "title": "Chương 127: Ngoại Truyện · Kết Thúc",
+    "char_count": 19816
+  },
+  {
+    "chapter_num": 128,
+    "title": "Chương 128: Toàn Văn Hoàn",
+    "char_count": 16474
+  }
+]

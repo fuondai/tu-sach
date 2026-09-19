@@ -38,6 +38,8 @@ def clean_text(raw_text):
         return ""
     text = raw_text.replace("*", "u")
     text = unicodedata.normalize("NFC", text)
+    emoji_pattern = re.compile(r"[\U00010000-\U0010ffff]", flags=re.UNICODE)
+    text = emoji_pattern.sub("", text)
     lines = text.splitlines()
     cleaned_lines = []
     watermark_pattern = re.compile(r"truyen\s*full", re.IGNORECASE)
