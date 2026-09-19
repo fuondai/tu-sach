@@ -1,9 +1,9 @@
 {
-  "totalNovels": 190,
-  "totalChapters": 30449,
-  "rawBytes": 280528409,
-  "packedBytes": 104971141,
-  "compressionRatio": 62.58,
-  "totalPacks": 26,
-  "duplicateBlocksSaved": 5555
+  "totalNovels": 390,
+  "totalChapters": 57311,
+  "rawBytes": 478043152,
+  "packedBytes": 180527450,
+  "compressionRatio": 62.24,
+  "totalPacks": 44,
+  "duplicateBlocksSaved": 10626
 }
