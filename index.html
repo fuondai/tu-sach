@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tủ Sách Gia Đình</title>
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="sepia" data-font="serif" data-width="medium">
+    <div id="reading-progress-container">
+        <div id="reading-progress-bar"></div>
+    </div>
+
+    <header id="site-header">
+        <div class="header-inner">
+            <div class="header-left">
+                <button id="btn-library" class="nav-brand-btn" type="button">
+                    <img src="assets/logo.svg" alt="Logo" class="header-logo">
+                    <span class="brand-name">Tủ Sách</span>
+                </button>
+                <button id="btn-story-detail" class="nav-btn" type="button">Chi tiết</button>
+                <button id="btn-toc-toggle" class="nav-btn" type="button">Mục lục</button>
+            </div>
+            <div class="header-center">
+                <span id="header-story-title">Đầu Xuân Tươi Sáng</span>
+                <span id="header-chapter-badge">Chương 1</span>
+            </div>
+            <div class="header-right">
+                <div class="quick-font-zoom">
+                    <button id="btn-quick-font-dec" class="font-zoom-btn" type="button" title="Chữ nhỏ hơn">A -</button>
+                    <button id="btn-quick-font-inc" class="font-zoom-btn" type="button" title="Chữ to hơn">A +</button>
+                </div>
+                <button id="btn-settings-toggle" class="nav-btn" type="button">Cài đặt</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="app-container">
+        <section id="library-view" class="view-section">
+            <div class="library-header">
+                <div class="library-brand-block">
+                    <img src="assets/logo.svg" alt="Logo Tủ Sách" class="library-hero-logo">
+                    <div>
+                        <h1 class="library-main-title">Tủ Sách Gia Đình</h1>
+                        <p class="library-subtitle">Không gian đọc sách thư thái, chữ to dễ đọc, thoải mái cho mắt.</p>
+                    </div>
+                </div>
+                <div class="library-search-wrap">
+                    <input type="text" id="library-search-input" class="search-input" placeholder="Tìm tên sách hoặc tác giả...">
+                </div>
+            </div>
+            <div id="category-filter-bar" class="category-filter-bar"></div>
+            <div id="library-grid" class="library-grid"></div>
+        </section>
+
+        <section id="overview-view" class="view-section hidden">
+            <div class="overview-back-bar">
+                <button id="btn-back-to-library" class="secondary-nav-btn" type="button">Quay lại Tủ Sách</button>
+            </div>
+            <div class="overview-card">
+                <div class="overview-cover-wrap">
+                    <img id="story-cover-img" src="assets/dau-xuan-tuoi-sang.jpg" alt="Bìa truyện">
+                </div>
+                <div class="overview-details">
+                    <h1 id="story-title">Tên truyện</h1>
+                    <div class="story-metadata">
+                        <div class="meta-item"><span class="meta-label">Tác giả:</span> <span id="story-author" class="meta-value"></span></div>
+                        <div class="meta-item"><span class="meta-label">Thể loại:</span> <span id="story-categories" class="meta-value"></span></div>
+                        <div class="meta-item"><span class="meta-label">Trạng thái:</span> <span id="story-status" class="meta-value"></span></div>
+                        <div class="meta-item"><span class="meta-label">Số chương:</span> <span id="story-total-chapters" class="meta-value"></span></div>
+                    </div>
+                    <div class="overview-actions">
+                        <button id="btn-read-first" class="action-btn primary-btn" type="button">Bắt đầu đọc</button>
+                        <button id="btn-continue-reading" class="action-btn secondary-btn" type="button">Đọc tiếp</button>
+                    </div>
+                    <div class="story-description-wrap">
+                        <h2>Tóm tắt tác phẩm</h2>
+                        <div id="story-description-text" class="story-description"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overview-chapters-section">
+                <div class="overview-chapters-header">
+                    <h2 id="overview-chapters-title">Danh sách các chương</h2>
+                    <input type="text" id="overview-search-input" class="search-input" placeholder="Tìm tên chương hoặc số chương...">
+                </div>
+                <div id="overview-chapters-grid" class="chapters-grid"></div>
+            </div>
+        </section>
+
+        <section id="reader-view" class="view-section hidden">
+            <div class="reader-container">
+                <div class="reader-top-nav">
+                    <button id="btn-prev-top" class="chapter-nav-btn prev-btn" type="button">Chương trước</button>
+                    <select id="select-chapter-top" class="chapter-select"></select>
+                    <button id="btn-next-top" class="chapter-nav-btn next-btn" type="button">Chương sau</button>
+                </div>
+
+                <div class="chapter-header-area">
+                    <h2 id="chapter-display-title">Tiêu đề chương</h2>
+                    <div class="chapter-info-meta">
+                        <span id="chapter-char-count">0 từ</span>
+                    </div>
+                </div>
+
+                <article id="chapter-content-body" class="chapter-text"></article>
+
+                <div class="reader-bottom-nav">
+                    <button id="btn-prev-bottom" class="chapter-nav-btn prev-btn" type="button">Chương trước</button>
+                    <select id="select-chapter-bottom" class="chapter-select"></select>
+                    <button id="btn-next-bottom" class="chapter-nav-btn next-btn" type="button">Chương sau</button>
+                </div>
+
+                <div class="reader-shortcut-hint">
+                    <span>Mẹo: Bạn có thể nhấn phím mũi tên Trái / Phải để lật chương nhanh.</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="modal-backdrop" class="modal-backdrop hidden"></div>
+
+    <aside id="toc-drawer" class="drawer hidden">
+        <div class="drawer-header">
+            <h3 id="toc-drawer-title">Mục lục</h3>
+            <button id="btn-close-toc" class="close-btn" type="button">Đóng</button>
+        </div>
+        <div class="drawer-search">
+            <input type="text" id="toc-search-input" class="search-input" placeholder="Tìm kiếm chương...">
+        </div>
+        <div id="toc-list-container" class="toc-list"></div>
+    </aside>
+
+    <div id="settings-modal" class="settings-modal hidden">
+        <div class="settings-header">
+            <h3>Tùy chỉnh cỡ chữ và màu sắc</h3>
+            <button id="btn-close-settings" class="close-btn" type="button">Đóng</button>
+        </div>
+        <div class="settings-body">
+            <div class="setting-group">
+                <label class="setting-label">Màu nền dịu mắt</label>
+                <div class="theme-options">
+                    <button class="theme-btn" data-theme-val="sepia" type="button">Giấy vàng Sepia</button>
+                    <button class="theme-btn" data-theme-val="light" type="button">Sáng</button>
+                    <button class="theme-btn" data-theme-val="dark" type="button">Tối</button>
+                    <button class="theme-btn" data-theme-val="oled" type="button">Đen tuyền</button>
+                </div>
+            </div>
+
+            <div class="setting-group">
+                <label class="setting-label">Cỡ chữ đọc sách</label>
+                <div class="size-controls">
+                    <button id="btn-dec-font" class="size-btn" type="button">Chữ nhỏ (A-)</button>
+                    <span id="current-font-size-text">21px</span>
+                    <button id="btn-inc-font" class="size-btn" type="button">Chữ to (A+)</button>
+                </div>
+            </div>
+
+            <div class="setting-group">
+                <label class="setting-label">Kiểu chữ</label>
+                <div class="font-options">
+                    <button class="font-btn" data-font-val="serif" type="button">Chữ sách có chân (Merriweather)</button>
+                    <button class="font-btn" data-font-val="sans" type="button">Chữ rõ nét không chân (Inter)</button>
+                </div>
+            </div>
+
+            <div class="setting-group">
+                <label class="setting-label">Khoảng cách giữa các dòng</label>
+                <div class="line-height-options">
+                    <button class="lh-btn" data-lh-val="1.8" type="button">Vừa vặn</button>
+                    <button class="lh-btn" data-lh-val="2.0" type="button">Thoáng đãng</button>
+                    <button class="lh-btn" data-lh-val="2.3" type="button">Rất rộng</button>
+                </div>
+            </div>
+
+            <div class="setting-group">
+                <label class="setting-label">Độ rộng trang sách</label>
+                <div class="width-options">
+                    <button class="width-btn" data-width-val="narrow" type="button">Vừa mắt</button>
+                    <button class="width-btn" data-width-val="medium" type="button">Tiêu chuẩn</button>
+                    <button class="width-btn" data-width-val="wide" type="button">Rộng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="site-footer">
+        <div class="footer-inner">
+            <p>Tủ Sách Gia Đình</p>
+            <p>Giao diện đọc truyện thư thái, phông chữ lớn, bảo vệ thị lực cho người lớn tuổi.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
