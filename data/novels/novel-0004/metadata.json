@@ -1,0 +1,639 @@
+{
+  "id": "novel-0004",
+  "title": "Chỉ Là Tiểu Thiếp - Nguyệt Minh Châu",
+  "author": "Nguyệt Minh Châu",
+  "description": "Bùi Nguyên Tuân, vị Tướng quân dẹp loạn lừng lẫy của triều Đại Ung triều, anh tuấn, oai phong, khí phách. Nhưng đã quá hai mươi lăm tuổi mà vẫn chưa thành thân, chỉ nạp một thiếp thất xinh đẹp vào hậu viện.\n\nThiếp thất này tuy nghe lời, ngoan ngoãn, rất đáng thương nhưng thân phận thấp kém, không thể làm chủ mẫu của phủ Tướng quân.\n\nLão phu nhân đã quyết định, muốn cưới một vị tiểu thư đích nữ danh gia vọng tộc xứng đôi vừa lứa cho Tướng quân làm chính thê.\n\nBùi Nguyên Tuân hết lòng hiếu thuận, im lặng chấp thuận, nói với thiếp thất: \"Đợi sau này chính thê vào cửa, ta sẽ cho phép nàng sinh con nối dõi. Tuy là thứ tử, nhưng cũng sẽ không thiên vị, đối xử như nhau.\"\n\n.\n\nKhương Nguyên có dung mạo tuyệt sắc, hiền dịu, ngoan ngoãn, là thiếp thất được Đại tướng quân nạp vào hậu viện.\n\nNàng tự biết thân phận thấp kém của mình, ở trong phủ luôn luôn an phận thủ thường, cẩn thận sống qua ngày, không dám bước sai nửa bước.\n\nCho đến một ngày, chẳng biết vì sao nàng đã mạo phạm đến đích nữ của Hầu phủ sắp đính hôn với Tướng quân, bị phạt quỳ trong Phật đường suốt mấy ngày.\n\nKhi tỉnh lại, Khương Nguyên như bừng tỉnh ngộ.\n\nNếu cứ ở lại phủ Tướng quân, sau này khó tránh khỏi bị chà đạp, chi bằng mang theo ngân lượng sớm rời khỏi phủ, tự mình tìm một nơi tốt hơn.\n\nThế nhân đều biết Bùi Nguyên Tuân là một vị Tướng quân thiết hán can trường, trầm ổn, ít lời. Thế nhưng, khi tin tức về thiếp thất kia rơi xuống nước chết đuối và không tìm thấy thi thể truyền đến, vị Tướng quân xưa nay vốn không để lộ hỉ nộ ái ố ra mặt hiếm khi mất bình tĩnh, mắt đỏ ngầu như điên cuồng tìm kiếm thi thể của nàng.\n\nLưu ý:\n\n1. Truyện hư cấu\n\n2. Truy thê hỏa táng tràng. 1v1, HE",
+  "cover": "cover.svg",
+  "genres": [
+    "Ngôn Tình",
+    "Cổ Đại",
+    "Ngược",
+    "Sủng",
+    "Tiên Hiệp",
+    "Huyền Huyễn",
+    "Dị Giới",
+    "Kiếm Hiệp",
+    "Trọng Sinh"
+  ],
+  "status": "Hoàn thành",
+  "chapterCount": 88,
+  "chapters": [
+    {
+      "id": "chapter-0001",
+      "number": 1,
+      "title": "Chương 1: Khương Nguyên",
+      "path": "novels/novel-0004/chapters/0001.json.br",
+      "charCount": 12356
+    },
+    {
+      "id": "chapter-0002",
+      "number": 2,
+      "title": "Chương 2: Về là tốt rồi",
+      "path": "novels/novel-0004/chapters/0002.json.br",
+      "charCount": 13510
+    },
+    {
+      "id": "chapter-0003",
+      "number": 3,
+      "title": "Chương 3: Cũng được",
+      "path": "novels/novel-0004/chapters/0003.json.br",
+      "charCount": 18425
+    },
+    {
+      "id": "chapter-0004",
+      "number": 4,
+      "title": "Chương 4: Tính tình lương thiện, dịu dàng hiền thục là tốt nhất",
+      "path": "novels/novel-0004/chapters/0004.json.br",
+      "charCount": 19111
+    },
+    {
+      "id": "chapter-0005",
+      "number": 5,
+      "title": "Chương 5: Cầu xin cũng không đổi lại được sự thương tiếc",
+      "path": "novels/novel-0004/chapters/0005.json.br",
+      "charCount": 13068
+    },
+    {
+      "id": "chapter-0006",
+      "number": 6,
+      "title": "Chương 6: Không được có tâm cơ như vậy",
+      "path": "novels/novel-0004/chapters/0006.json.br",
+      "charCount": 11951
+    },
+    {
+      "id": "chapter-0007",
+      "number": 7,
+      "title": "Chương 7: Bị bệnh sao",
+      "path": "novels/novel-0004/chapters/0007.json.br",
+      "charCount": 17077
+    },
+    {
+      "id": "chapter-0008",
+      "number": 8,
+      "title": "Chương 8: Mười ngày sau, ta sẽ đến đón mọi người",
+      "path": "novels/novel-0004/chapters/0008.json.br",
+      "charCount": 10541
+    },
+    {
+      "id": "chapter-0009",
+      "number": 9,
+      "title": "Chương 9: Hôn sự này rốt cuộc có định hay không",
+      "path": "novels/novel-0004/chapters/0009.json.br",
+      "charCount": 10541
+    },
+    {
+      "id": "chapter-0010",
+      "number": 10,
+      "title": "Chương 10: Nhất định sẽ sủng nàng thêm vài phần",
+      "path": "novels/novel-0004/chapters/0010.json.br",
+      "charCount": 13634
+    },
+    {
+      "id": "chapter-0011",
+      "number": 11,
+      "title": "Chương 11: Cô nương tại sao lại không vui?",
+      "path": "novels/novel-0004/chapters/0011.json.br",
+      "charCount": 12469
+    },
+    {
+      "id": "chapter-0012",
+      "number": 12,
+      "title": "Chương 12: Có gì quan trọng?",
+      "path": "novels/novel-0004/chapters/0012.json.br",
+      "charCount": 11919
+    },
+    {
+      "id": "chapter-0013",
+      "number": 13,
+      "title": "Chương 13: Chủ tử tối ngay ngủ ở chính phòng hay là đến thư phòng ạ?",
+      "path": "novels/novel-0004/chapters/0013.json.br",
+      "charCount": 13482
+    },
+    {
+      "id": "chapter-0014",
+      "number": 14,
+      "title": "Chương 14: Sau này chính thê vào cửa, nàng không cần uống tuốc tránh thai nữa",
+      "path": "novels/novel-0004/chapters/0014.json.br",
+      "charCount": 12599
+    },
+    {
+      "id": "chapter-0015",
+      "number": 15,
+      "title": "Chương 15: Thiếp muốn ra bến đò ngoại thành tiễn Nhị thúc và Nhị ca",
+      "path": "novels/novel-0004/chapters/0015.json.br",
+      "charCount": 13540
+    },
+    {
+      "id": "chapter-0016",
+      "number": 16,
+      "title": "Chương 16: Người không nghe lời sẽ phải nếm mùi trừng phạt",
+      "path": "novels/novel-0004/chapters/0016.json.br",
+      "charCount": 14746
+    },
+    {
+      "id": "chapter-0017",
+      "number": 17,
+      "title": "Chương 17: Đây là trang sức mua ở tiệm Kim Ngọc, nàng xem có thích không",
+      "path": "novels/novel-0004/chapters/0017.json.br",
+      "charCount": 14667
+    },
+    {
+      "id": "chapter-0018",
+      "number": 18,
+      "title": "Chương 18: Khương Nguyên bị nhốt vào Phật đường trong phủ",
+      "path": "novels/novel-0004/chapters/0018.json.br",
+      "charCount": 17405
+    },
+    {
+      "id": "chapter-0019",
+      "number": 19,
+      "title": "Chương 19: Thiếp muốn nghỉ ngơi một lát",
+      "path": "novels/novel-0004/chapters/0019.json.br",
+      "charCount": 11998
+    },
+    {
+      "id": "chapter-0020",
+      "number": 20,
+      "title": "Chương 20: Ngày tướng quân đi săn đã được định chưa",
+      "path": "novels/novel-0004/chapters/0020.json.br",
+      "charCount": 13536
+    },
+    {
+      "id": "chapter-0021",
+      "number": 21,
+      "title": "Chương 21: Khế ước bán thân của thiếp, Tướng quân có thể.....",
+      "path": "novels/novel-0004/chapters/0021.json.br",
+      "charCount": 18331
+    },
+    {
+      "id": "chapter-0022",
+      "number": 22,
+      "title": "Chương 22: Nàng lặng lẽ quay người rời đi",
+      "path": "novels/novel-0004/chapters/0022.json.br",
+      "charCount": 17190
+    },
+    {
+      "id": "chapter-0023",
+      "number": 23,
+      "title": "Chương 23: Sống phải thấy người chết phải thấy xác",
+      "path": "novels/novel-0004/chapters/0023.json.br",
+      "charCount": 31704
+    },
+    {
+      "id": "chapter-0024",
+      "number": 24,
+      "title": "Chương 24: Nhớ",
+      "path": "novels/novel-0004/chapters/0024.json.br",
+      "charCount": 29036
+    },
+    {
+      "id": "chapter-0025",
+      "number": 25,
+      "title": "Chương 25: Gặp lại",
+      "path": "novels/novel-0004/chapters/0025.json.br",
+      "charCount": 29547
+    },
+    {
+      "id": "chapter-0026",
+      "number": 26,
+      "title": "Chương 26: Dân nữ tham kiến Tướng quân",
+      "path": "novels/novel-0004/chapters/0026.json.br",
+      "charCount": 24190
+    },
+    {
+      "id": "chapter-0027",
+      "number": 27,
+      "title": "Chương 27: Ta muốn đến thăm con",
+      "path": "novels/novel-0004/chapters/0027.json.br",
+      "charCount": 20079
+    },
+    {
+      "id": "chapter-0028",
+      "number": 28,
+      "title": "Chương 28: Ta có thể cùng nàng đó sinh thần của Ninh Ninh được không",
+      "path": "novels/novel-0004/chapters/0028.json.br",
+      "charCount": 33169
+    },
+    {
+      "id": "chapter-0029",
+      "number": 29,
+      "title": "Chương 29: Thay đổi",
+      "path": "novels/novel-0004/chapters/0029.json.br",
+      "charCount": 18771
+    },
+    {
+      "id": "chapter-0030",
+      "number": 30,
+      "title": "Chương 30: Rời đi",
+      "path": "novels/novel-0004/chapters/0030.json.br",
+      "charCount": 17671
+    },
+    {
+      "id": "chapter-0031",
+      "number": 31,
+      "title": "Chương 31: Ta tạm ở đây, không có ý gì khác",
+      "path": "novels/novel-0004/chapters/0031.json.br",
+      "charCount": 16737
+    },
+    {
+      "id": "chapter-0032",
+      "number": 32,
+      "title": "Chương 32: Không thể không coi trọng và cảnh giác",
+      "path": "novels/novel-0004/chapters/0032.json.br",
+      "charCount": 21619
+    },
+    {
+      "id": "chapter-0033",
+      "number": 33,
+      "title": "Chương 33: Đừng sợ, trước tiên giúp ta cầm máu đã",
+      "path": "novels/novel-0004/chapters/0033.json.br",
+      "charCount": 30318
+    },
+    {
+      "id": "chapter-0034",
+      "number": 34,
+      "title": "Chương 34: Tình nghĩa phu thê, sao có thể hoàn toàn quên được",
+      "path": "novels/novel-0004/chapters/0034.json.br",
+      "charCount": 18378
+    },
+    {
+      "id": "chapter-0035",
+      "number": 35,
+      "title": "Chương 35: Đột nhiên mềm lòng",
+      "path": "novels/novel-0004/chapters/0035.json.br",
+      "charCount": 26469
+    },
+    {
+      "id": "chapter-0036",
+      "number": 36,
+      "title": "Chương 36: Một đời vô lo",
+      "path": "novels/novel-0004/chapters/0036.json.br",
+      "charCount": 27980
+    },
+    {
+      "id": "chapter-0037",
+      "number": 37,
+      "title": "Chương 37",
+      "path": "novels/novel-0004/chapters/0037.json.br",
+      "charCount": 22606
+    },
+    {
+      "id": "chapter-0038",
+      "number": 38,
+      "title": "Chương 38: Tham kiến Bùi đại nhân",
+      "path": "novels/novel-0004/chapters/0038.json.br",
+      "charCount": 24001
+    },
+    {
+      "id": "chapter-0039",
+      "number": 39,
+      "title": "Chương 39: Ta thay mặt Thiếu Lăng, đến xin lỗi nàng",
+      "path": "novels/novel-0004/chapters/0039.json.br",
+      "charCount": 25579
+    },
+    {
+      "id": "chapter-0040",
+      "number": 40,
+      "title": "Chương 40: Hắn dường như đã sai rồi",
+      "path": "novels/novel-0004/chapters/0040.json.br",
+      "charCount": 26615
+    },
+    {
+      "id": "chapter-0041",
+      "number": 41,
+      "title": "Chương 41: Hắn nói sẽ tự phạt nặng",
+      "path": "novels/novel-0004/chapters/0041.json.br",
+      "charCount": 33171
+    },
+    {
+      "id": "chapter-0042",
+      "number": 42,
+      "title": "Chương 42: Chỉ có thể là một mình hắn",
+      "path": "novels/novel-0004/chapters/0042.json.br",
+      "charCount": 22553
+    },
+    {
+      "id": "chapter-0043",
+      "number": 43,
+      "title": "Chương 43: Ánh mắt trầm lạnh không gợn sóng của Bùi Nguyên Tuân, đột nhiên trở nên sắc bén",
+      "path": "novels/novel-0004/chapters/0043.json.br",
+      "charCount": 22168
+    },
+    {
+      "id": "chapter-0044",
+      "number": 44,
+      "title": "Chương 44: Đồ lừa đảo",
+      "path": "novels/novel-0004/chapters/0044.json.br",
+      "charCount": 25959
+    },
+    {
+      "id": "chapter-0045",
+      "number": 45,
+      "title": "Chương 45: Nàng sẽ không thể gả cho Quý Thu Minh được",
+      "path": "novels/novel-0004/chapters/0045.json.br",
+      "charCount": 25747
+    },
+    {
+      "id": "chapter-0046",
+      "number": 46,
+      "title": "Chương 46: Chuyện tối qua",
+      "path": "novels/novel-0004/chapters/0046.json.br",
+      "charCount": 21944
+    },
+    {
+      "id": "chapter-0047",
+      "number": 47,
+      "title": "Chương 47: Bảo vệ thanh danh",
+      "path": "novels/novel-0004/chapters/0047.json.br",
+      "charCount": 16908
+    },
+    {
+      "id": "chapter-0048",
+      "number": 48,
+      "title": "Chương 48: Làm khó ta quá mà",
+      "path": "novels/novel-0004/chapters/0048.json.br",
+      "charCount": 24816
+    },
+    {
+      "id": "chapter-0049",
+      "number": 49,
+      "title": "Chương 49: Ta đưa nàng ra ngoài",
+      "path": "novels/novel-0004/chapters/0049.json.br",
+      "charCount": 21778
+    },
+    {
+      "id": "chapter-0050",
+      "number": 50,
+      "title": "Chương 50: Nàng đừng đến Ngự Y Đường nữa",
+      "path": "novels/novel-0004/chapters/0050.json.br",
+      "charCount": 20544
+    },
+    {
+      "id": "chapter-0051",
+      "number": 51,
+      "title": "Chương 51: Hắn có thẹn với lòng",
+      "path": "novels/novel-0004/chapters/0051.json.br",
+      "charCount": 22860
+    },
+    {
+      "id": "chapter-0052",
+      "number": 52,
+      "title": "Chương 52: Nhưng hắn, lại cứ khiến nàng phải chịu ấm ức",
+      "path": "novels/novel-0004/chapters/0052.json.br",
+      "charCount": 16155
+    },
+    {
+      "id": "chapter-0053",
+      "number": 53,
+      "title": "Chương 53: Như rơi xuống hầm băng",
+      "path": "novels/novel-0004/chapters/0053.json.br",
+      "charCount": 30481
+    },
+    {
+      "id": "chapter-0054",
+      "number": 54,
+      "title": "Chương 54: Tướng quân nhất thiết muốn tranh thê với ta sao",
+      "path": "novels/novel-0004/chapters/0054.json.br",
+      "charCount": 18174
+    },
+    {
+      "id": "chapter-0055",
+      "number": 55,
+      "title": "Chương 55: Không cần để tâm",
+      "path": "novels/novel-0004/chapters/0055.json.br",
+      "charCount": 23891
+    },
+    {
+      "id": "chapter-0056",
+      "number": 56,
+      "title": "Chương 56: Đừng đến quấy rầy ta nữa",
+      "path": "novels/novel-0004/chapters/0056.json.br",
+      "charCount": 17790
+    },
+    {
+      "id": "chapter-0057",
+      "number": 57,
+      "title": "Chương 57: Ngài phải tin lời ta nói",
+      "path": "novels/novel-0004/chapters/0057.json.br",
+      "charCount": 20012
+    },
+    {
+      "id": "chapter-0058",
+      "number": 58,
+      "title": "Chương 58: Tướng quân sao lại ở đây?",
+      "path": "novels/novel-0004/chapters/0058.json.br",
+      "charCount": 19356
+    },
+    {
+      "id": "chapter-0059",
+      "number": 59,
+      "title": "Chương 59: Mọi lo lắng của hắn đều là thừa thãi",
+      "path": "novels/novel-0004/chapters/0059.json.br",
+      "charCount": 12118
+    },
+    {
+      "id": "chapter-0060",
+      "number": 60,
+      "title": "Chương 60: Xin nén bi thương",
+      "path": "novels/novel-0004/chapters/0060.json.br",
+      "charCount": 15264
+    },
+    {
+      "id": "chapter-0061",
+      "number": 61,
+      "title": "Chương 61: Cảnh Thiên hộ đại nhân có thể đưa ta về được không?",
+      "path": "novels/novel-0004/chapters/0061.json.br",
+      "charCount": 22564
+    },
+    {
+      "id": "chapter-0062",
+      "number": 62,
+      "title": "Chương 62: Mỗi lần ta nghĩ đến, lại đau buồn không ngủ được...",
+      "path": "novels/novel-0004/chapters/0062.json.br",
+      "charCount": 19348
+    },
+    {
+      "id": "chapter-0063",
+      "number": 63,
+      "title": "Chương 63: Che giấu thân phận là chuyện bất đắc dĩ",
+      "path": "novels/novel-0004/chapters/0063.json.br",
+      "charCount": 17262
+    },
+    {
+      "id": "chapter-0064",
+      "number": 64,
+      "title": "Chương 64: Khương đại phu thật trùng hợp",
+      "path": "novels/novel-0004/chapters/0064.json.br",
+      "charCount": 17491
+    },
+    {
+      "id": "chapter-0065",
+      "number": 65,
+      "title": "Chương 65: Tại sao không ở lại kinh đô?",
+      "path": "novels/novel-0004/chapters/0065.json.br",
+      "charCount": 13172
+    },
+    {
+      "id": "chapter-0066",
+      "number": 66,
+      "title": "Chương 66: Hắn đã nhất kiến sinh tình với nàng",
+      "path": "novels/novel-0004/chapters/0066.json.br",
+      "charCount": 12700
+    },
+    {
+      "id": "chapter-0067",
+      "number": 67,
+      "title": "Chương 67: Khương Nguyên, đừng sợ, ta đến đây",
+      "path": "novels/novel-0004/chapters/0067.json.br",
+      "charCount": 15672
+    },
+    {
+      "id": "chapter-0068",
+      "number": 68,
+      "title": "Chương 68: Là ta",
+      "path": "novels/novel-0004/chapters/0068.json.br",
+      "charCount": 16228
+    },
+    {
+      "id": "chapter-0069",
+      "number": 69,
+      "title": "Chương 69: Khương Nguyên, cho ta một cơ hội nữa",
+      "path": "novels/novel-0004/chapters/0069.json.br",
+      "charCount": 12044
+    },
+    {
+      "id": "chapter-0070",
+      "number": 70,
+      "title": "Chương 70: Vẫn còn giận ta sao?",
+      "path": "novels/novel-0004/chapters/0070.json.br",
+      "charCount": 15137
+    },
+    {
+      "id": "chapter-0071",
+      "number": 71,
+      "title": "Chương 71: Phu nhân, ta có biết chút y thuật, có thể giúp phu nhân xem bệnh được không?",
+      "path": "novels/novel-0004/chapters/0071.json.br",
+      "charCount": 20539
+    },
+    {
+      "id": "chapter-0072",
+      "number": 72,
+      "title": "Chương 72: Các người có bằng lòng theo ta học y không?",
+      "path": "novels/novel-0004/chapters/0072.json.br",
+      "charCount": 20476
+    },
+    {
+      "id": "chapter-0073",
+      "number": 73,
+      "title": "Chương 73: Công tử vẫn chưa thành thân à?",
+      "path": "novels/novel-0004/chapters/0073.json.br",
+      "charCount": 20482
+    },
+    {
+      "id": "chapter-0074",
+      "number": 74,
+      "title": "Chương 74: Tướng quân rốt cuộc đã xem sách không đứng đắn gì vậy?",
+      "path": "novels/novel-0004/chapters/0074.json.br",
+      "charCount": 12780
+    },
+    {
+      "id": "chapter-0075",
+      "number": 75,
+      "title": "Chương 75: Bùi Nguyên Tuân nhìn chằm chằm vào bóng lưng trẻ tuổi đó không chớp mắt, ánh mắt đột nhiên trở nên lạnh lùng sắc",
+      "path": "novels/novel-0004/chapters/0075.json.br",
+      "charCount": 15481
+    },
+    {
+      "id": "chapter-0076",
+      "number": 76,
+      "title": "Chương 76: Ta nguyện cõng nàng cả đời",
+      "path": "novels/novel-0004/chapters/0076.json.br",
+      "charCount": 16531
+    },
+    {
+      "id": "chapter-0077",
+      "number": 77,
+      "title": "Chương 77: Đại ca... sẽ không định nhập tế vào Khương trạch đấy chứ?",
+      "path": "novels/novel-0004/chapters/0077.json.br",
+      "charCount": 8328
+    },
+    {
+      "id": "chapter-0078",
+      "number": 78,
+      "title": "Chương 78: Chúng ta thành hôn đi",
+      "path": "novels/novel-0004/chapters/0078.json.br",
+      "charCount": 14446
+    },
+    {
+      "id": "chapter-0079",
+      "number": 79,
+      "title": "Chương 79: Ninh Ninh lớn rồi, nên cho ngủ riêng thôi",
+      "path": "novels/novel-0004/chapters/0079.json.br",
+      "charCount": 9994
+    },
+    {
+      "id": "chapter-0080",
+      "number": 80,
+      "title": "Chương 80: Đời đời kiếp kiếp đều ở bên nhau",
+      "path": "novels/novel-0004/chapters/0080.json.br",
+      "charCount": 9840
+    },
+    {
+      "id": "chapter-0081",
+      "number": 81,
+      "title": "Chương 81: Muốn cùng nhau trãi qua một đời",
+      "path": "novels/novel-0004/chapters/0081.json.br",
+      "charCount": 24960
+    },
+    {
+      "id": "chapter-0082",
+      "number": 82,
+      "title": "Chương 82: NT 1 - Ta bế nàng đi",
+      "path": "novels/novel-0004/chapters/0082.json.br",
+      "charCount": 10618
+    },
+    {
+      "id": "chapter-0083",
+      "number": 83,
+      "title": "Chương 83: NT 2 - Quen là sẽ ổn thôi",
+      "path": "novels/novel-0004/chapters/0083.json.br",
+      "charCount": 8771
+    },
+    {
+      "id": "chapter-0084",
+      "number": 84,
+      "title": "Chương 84: NT 3 - Ta...sẽ chú ý",
+      "path": "novels/novel-0004/chapters/0084.json.br",
+      "charCount": 8194
+    },
+    {
+      "id": "chapter-0085",
+      "number": 85,
+      "title": "Chương 85: NT 4 - Sắc mặt vốn bình thản không gợn sóng, đột nhiên trở nên trầm trọng.",
+      "path": "novels/novel-0004/chapters/0085.json.br",
+      "charCount": 13470
+    },
+    {
+      "id": "chapter-0086",
+      "number": 86,
+      "title": "Chương 86: NT 5 - Nguyên Nguyên, ngày mai, ta làm bánh đậu xanh cho nàng nhé",
+      "path": "novels/novel-0004/chapters/0086.json.br",
+      "charCount": 16043
+    },
+    {
+      "id": "chapter-0087",
+      "number": 87,
+      "title": "Chương 87: NT 6 - Sao thế, nàng không thích à?",
+      "path": "novels/novel-0004/chapters/0087.json.br",
+      "charCount": 11076
+    },
+    {
+      "id": "chapter-0088",
+      "number": 88,
+      "title": "Chương 88: NT 7 - Quãng đời còn lại rất dài, cùng nàng làm mọi việc, ta đều sẽ rất thích",
+      "path": "novels/novel-0004/chapters/0088.json.br",
+      "charCount": 16173
+    }
+  ],
+  "updatedAt": "2026-09-19T14:18:33.870103+00:00"
+}

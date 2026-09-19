@@ -1,0 +1,157 @@
+{
+  "id": "novel-0013",
+  "title": "[Thập Niên 80] Nghiêm Tang",
+  "author": "Khuyết Danh",
+  "description": "Tôi tên là Nghiêm Tang.\n\nKiếp trước, chưa đầy năm mươi tuổi tôi đã mắc bệnh nan y, thân thể lở loét, ý thức mơ hồ.\n\nNgười nhà họ Lê bất chấp việc tôi đã chăm sóc mẹ già và đứa em trai ngốc nghếch của Lê Quang Nhược bao nhiêu năm, trực tiếp trói tay chân tôi lại, vứt ra ngọn núi hoang vu phía sau, muốn tôi tự sinh tự diệt.\n\nLà Cố Trình tìm được tôi và đưa đến bệnh viện, dốc hết gia sản cứu chữa.\n\nTrong phòng ICU mỗi ngày tốn cả mấy chục ngàn tệ kia, tôi đã gặp lại người chồng Lê Quang Nhược mà tôi tưởng đã chết cách đó hơn hai mươi năm.\n\nAnh ta là bác sĩ điều trị chính của tôi, cũng là giám đốc bệnh viện công lập hạng nhất này.",
+  "cover": "cover.svg",
+  "genres": [
+    "Trọng Sinh",
+    "Nữ Cường",
+    "Khác",
+    "Tiên Hiệp",
+    "Huyền Huyễn",
+    "Dị Giới",
+    "Kiếm Hiệp",
+    "Ngôn Tình",
+    "Ngược",
+    "Sủng"
+  ],
+  "status": "Hoàn thành",
+  "chapterCount": 19,
+  "chapters": [
+    {
+      "id": "chapter-0001",
+      "number": 1,
+      "title": "Chương 1",
+      "path": "novels/novel-0013/chapters/0001.json.br",
+      "charCount": 2744
+    },
+    {
+      "id": "chapter-0002",
+      "number": 2,
+      "title": "Chương 2",
+      "path": "novels/novel-0013/chapters/0002.json.br",
+      "charCount": 4875
+    },
+    {
+      "id": "chapter-0003",
+      "number": 3,
+      "title": "Chương 3",
+      "path": "novels/novel-0013/chapters/0003.json.br",
+      "charCount": 4731
+    },
+    {
+      "id": "chapter-0004",
+      "number": 4,
+      "title": "Chương 4",
+      "path": "novels/novel-0013/chapters/0004.json.br",
+      "charCount": 4806
+    },
+    {
+      "id": "chapter-0005",
+      "number": 5,
+      "title": "Chương 5",
+      "path": "novels/novel-0013/chapters/0005.json.br",
+      "charCount": 4331
+    },
+    {
+      "id": "chapter-0006",
+      "number": 6,
+      "title": "Chương 6",
+      "path": "novels/novel-0013/chapters/0006.json.br",
+      "charCount": 4180
+    },
+    {
+      "id": "chapter-0007",
+      "number": 7,
+      "title": "Chương 7",
+      "path": "novels/novel-0013/chapters/0007.json.br",
+      "charCount": 4170
+    },
+    {
+      "id": "chapter-0008",
+      "number": 8,
+      "title": "Chương 8",
+      "path": "novels/novel-0013/chapters/0008.json.br",
+      "charCount": 4453
+    },
+    {
+      "id": "chapter-0009",
+      "number": 9,
+      "title": "Chương 9",
+      "path": "novels/novel-0013/chapters/0009.json.br",
+      "charCount": 4211
+    },
+    {
+      "id": "chapter-0010",
+      "number": 10,
+      "title": "Chương 10",
+      "path": "novels/novel-0013/chapters/0010.json.br",
+      "charCount": 4177
+    },
+    {
+      "id": "chapter-0011",
+      "number": 11,
+      "title": "Chương 11",
+      "path": "novels/novel-0013/chapters/0011.json.br",
+      "charCount": 4494
+    },
+    {
+      "id": "chapter-0012",
+      "number": 12,
+      "title": "Chương 12",
+      "path": "novels/novel-0013/chapters/0012.json.br",
+      "charCount": 4509
+    },
+    {
+      "id": "chapter-0013",
+      "number": 13,
+      "title": "Chương 13",
+      "path": "novels/novel-0013/chapters/0013.json.br",
+      "charCount": 4761
+    },
+    {
+      "id": "chapter-0014",
+      "number": 14,
+      "title": "Chương 14",
+      "path": "novels/novel-0013/chapters/0014.json.br",
+      "charCount": 4360
+    },
+    {
+      "id": "chapter-0015",
+      "number": 15,
+      "title": "Chương 15",
+      "path": "novels/novel-0013/chapters/0015.json.br",
+      "charCount": 4778
+    },
+    {
+      "id": "chapter-0016",
+      "number": 16,
+      "title": "Chương 16",
+      "path": "novels/novel-0013/chapters/0016.json.br",
+      "charCount": 4279
+    },
+    {
+      "id": "chapter-0017",
+      "number": 17,
+      "title": "Chương 17",
+      "path": "novels/novel-0013/chapters/0017.json.br",
+      "charCount": 4433
+    },
+    {
+      "id": "chapter-0018",
+      "number": 18,
+      "title": "Chương 18",
+      "path": "novels/novel-0013/chapters/0018.json.br",
+      "charCount": 4300
+    },
+    {
+      "id": "chapter-0019",
+      "number": 19,
+      "title": "Chương 19: Hoàn",
+      "path": "novels/novel-0013/chapters/0019.json.br",
+      "charCount": 2444
+    }
+  ],
+  "updatedAt": "2026-09-19T14:18:34.156083+00:00"
+}

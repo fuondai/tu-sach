@@ -1,0 +1,166 @@
+{
+  "id": "novel-0008",
+  "title": "Huyết Thống",
+  "author": "Mạn Mạn",
+  "description": "uuTiêu đề:uu Huyết Thống\n\n### Ý tưởng cốt truyện chính:\n\nTrong bối cảnh phong kiến đầy mưu mô và đấu tranh, Lý Tĩnh, con gái thứ của gia tộc Lý quyền quý, quyết tâm khẳng định vị trí của mình trong một xã hội coi trọng nam giới. Cô luôn bị xem thường bởi sự thiếu hụt \"huyết thống\" nam, nhưng lại sở hữu một trí tuệ sắc bén và khả năng quản lý tài chính xuất sắc. Khi gia tộc Lý đứng trước nguy cơ bị tấn công bởi thế lực bên ngoài, Lý Tĩnh quyết định sử dụng tài năng và sức mạnh của mình để bảo vệ gia đình.\n\nTuy nhiên, Lý Hạo, em trai của cô, luôn âm thầm ghen tị và tìm cách thao túng người khác để giành quyền lực. Trong khi đó, Đinh Lệ, một cô gái nông dân có tài năng nông nghiệp xuất sắc, lại trở thành nhân tố bất ngờ, giúp Lý Tĩnh tối ưu hóa sản xuất và duy trì nguồn lực cho gia tộc. Bước ngoặt xảy ra khi Lý Tĩnh phát hiện ra rằng Lưu Minh, người thừa kế của gia tộc quân sự lớn, cũng đang âm thầm giúp đỡ gia tộc mình trong cuộc chiến này, tạo nên một mối liên kết bất ngờ.\n\nCuộc chiến giữa các gia tộc trở nên khốc liệt, và Lý Tĩnh phải đối mặt với những lựa chọn khó khăn: liệu có nên hy sinh mối quan hệ cá nhân để bảo vệ gia tộc, hay chấp nhận những rủi ro để tìm kiếm quyền lực? Các bước ngoặt bất ngờ diễn ra khi Lý Hạo lật mặt và hợp tác với Đinh Tùng, kẻ thù không đội trời chung, gây ra sự rối ren trong gia tộc.\n\nCuối cùng, trong một cuộc chiến quyết định, Lý Tĩnh không chỉ phải đối mặt với kẻ thù bên ngoài mà còn với những xung đột nội tâm của chính mình. Kết thúc mở, cô quyết định giữ lại gia tộc và tìm kiếm một con đường mới cho bản thân, để lại dư vị cho người đọc về những điều chưa được giải quyết, nhưng cũng đầy hy vọng cho tương lai.",
+  "cover": "cover.svg",
+  "genres": [
+    "Trọng Sinh",
+    "Gia Đấu",
+    "Điền Văn",
+    "Hệ Thống",
+    "Truyện sáng tác",
+    "Tiên Hiệp",
+    "Huyền Huyễn",
+    "Dị Giới",
+    "Kiếm Hiệp",
+    "Ngôn Tình",
+    "Ngược",
+    "Sủng"
+  ],
+  "status": "Hoàn thành",
+  "chapterCount": 20,
+  "chapters": [
+    {
+      "id": "chapter-0001",
+      "number": 1,
+      "title": "Chương 1: Vị trí không được thừa nhận",
+      "path": "novels/novel-0008/chapters/0001.json.br",
+      "charCount": 5632
+    },
+    {
+      "id": "chapter-0002",
+      "number": 2,
+      "title": "Chương 2: Bước chân vào cuộc chiến",
+      "path": "novels/novel-0008/chapters/0002.json.br",
+      "charCount": 4698
+    },
+    {
+      "id": "chapter-0003",
+      "number": 3,
+      "title": "Chương 3: Sức mạnh từ đồng ruộng",
+      "path": "novels/novel-0008/chapters/0003.json.br",
+      "charCount": 4456
+    },
+    {
+      "id": "chapter-0004",
+      "number": 4,
+      "title": "Chương 4: Mối liên kết bất ngờ",
+      "path": "novels/novel-0008/chapters/0004.json.br",
+      "charCount": 5005
+    },
+    {
+      "id": "chapter-0005",
+      "number": 5,
+      "title": "Chương 5: Kế hoạch phản công",
+      "path": "novels/novel-0008/chapters/0005.json.br",
+      "charCount": 4927
+    },
+    {
+      "id": "chapter-0006",
+      "number": 6,
+      "title": "Chương 6: Những bí mật bị giấu kín",
+      "path": "novels/novel-0008/chapters/0006.json.br",
+      "charCount": 4444
+    },
+    {
+      "id": "chapter-0007",
+      "number": 7,
+      "title": "Chương 7: Âm thầm thao túng",
+      "path": "novels/novel-0008/chapters/0007.json.br",
+      "charCount": 4229
+    },
+    {
+      "id": "chapter-0008",
+      "number": 8,
+      "title": "Chương 8: Cuộc họp gia tộc",
+      "path": "novels/novel-0008/chapters/0008.json.br",
+      "charCount": 5473
+    },
+    {
+      "id": "chapter-0009",
+      "number": 9,
+      "title": "Chương 9: Gió đổi chiều",
+      "path": "novels/novel-0008/chapters/0009.json.br",
+      "charCount": 4795
+    },
+    {
+      "id": "chapter-0010",
+      "number": 10,
+      "title": "Chương 10: Lửa bùng lên",
+      "path": "novels/novel-0008/chapters/0010.json.br",
+      "charCount": 4191
+    },
+    {
+      "id": "chapter-0011",
+      "number": 11,
+      "title": "Chương 11: Lựa chọn khó khăn",
+      "path": "novels/novel-0008/chapters/0011.json.br",
+      "charCount": 3694
+    },
+    {
+      "id": "chapter-0012",
+      "number": 12,
+      "title": "Chương 12: Cú sốc từ quá khứ",
+      "path": "novels/novel-0008/chapters/0012.json.br",
+      "charCount": 4263
+    },
+    {
+      "id": "chapter-0013",
+      "number": 13,
+      "title": "Chương 13: Sự phản bội bất ngờ",
+      "path": "novels/novel-0008/chapters/0013.json.br",
+      "charCount": 4485
+    },
+    {
+      "id": "chapter-0014",
+      "number": 14,
+      "title": "Chương 14: Đánh cược cuối cùng",
+      "path": "novels/novel-0008/chapters/0014.json.br",
+      "charCount": 4234
+    },
+    {
+      "id": "chapter-0015",
+      "number": 15,
+      "title": "Chương 15: Cuộc chiến nảy lửa",
+      "path": "novels/novel-0008/chapters/0015.json.br",
+      "charCount": 4282
+    },
+    {
+      "id": "chapter-0016",
+      "number": 16,
+      "title": "Chương 16: Thời khắc quyết định",
+      "path": "novels/novel-0008/chapters/0016.json.br",
+      "charCount": 4738
+    },
+    {
+      "id": "chapter-0017",
+      "number": 17,
+      "title": "Chương 17: Sát cánh bên nhau",
+      "path": "novels/novel-0008/chapters/0017.json.br",
+      "charCount": 5608
+    },
+    {
+      "id": "chapter-0018",
+      "number": 18,
+      "title": "Chương 18: Chân tướng lộ diện",
+      "path": "novels/novel-0008/chapters/0018.json.br",
+      "charCount": 4634
+    },
+    {
+      "id": "chapter-0019",
+      "number": 19,
+      "title": "Chương 19: Cuộc chiến cuối cùng",
+      "path": "novels/novel-0008/chapters/0019.json.br",
+      "charCount": 6699
+    },
+    {
+      "id": "chapter-0020",
+      "number": 20,
+      "title": "Chương 20: Khởi đầu mới",
+      "path": "novels/novel-0008/chapters/0020.json.br",
+      "charCount": 5644
+    }
+  ],
+  "updatedAt": "2026-09-19T14:18:33.975477+00:00"
+}

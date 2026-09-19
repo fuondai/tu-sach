@@ -1,0 +1,20 @@
+{
+  "siteName": "Tủ Sách Gia Đình",
+  "provider": "local",
+  "huggingface": {
+    "namespace": "YOUR_USERNAME",
+    "dataset": "YOUR_DATASET",
+    "revision": "main"
+  },
+  "local": {
+    "basePath": "data"
+  },
+  "reader": {
+    "prefetchNextChapter": true,
+    "cacheEnabled": true,
+    "defaultFontSize": 22,
+    "defaultLineHeight": 1.9,
+    "defaultTheme": "sepia",
+    "defaultFont": "serif"
+  }
+}

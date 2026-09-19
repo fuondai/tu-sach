@@ -1,0 +1,590 @@
+{
+  "id": "novel-0003",
+  "title": "Chẳng Đợi Xuân - Mỳ Sợi Khoai Tây",
+  "author": "Mỳ Sợi Khoai Tây",
+  "description": "Tên truyện: Chẳng đợi xuân\n\nTác giả: Mỳ sợi khoai tây\n\nDịch: Lá Nhỏ\n\nThể loại: Chữa lành, du lịch\n\nGiới thiệu:\n\nHề Việt bị cắt giảm nhân sự, cô cầm theo số tiền được bồi thường tới Vân Nam du lịch, trong khoảng thời gian ấy cô đã quen được Trì Tiêu.\n\nAnh và cô có tính cách hoàn toàn trái ngược nhau. Người mở cửa hàng làm ăn, nhìn có vẻ ngoài ưa nhìn, gặp ai cũng mỉm cười rạng rỡ, thật ra lại là người nóng nảy, khó tính, hẹp hòi. Tóm lại không phải “người chung đường” với cô, cũng không hợp với tiêu chuẩn người yêu của cô.\n\nNhưng khi tiếp xúc rồi cô mới nhận ra mình đã sai, dường như người này cũng được.\n\nuuu\n\nTrì Tiêu mở nhà hàng ở Vân Nam, quen được một cô ngốc tới từ phương xa.\n\nThật ra kiểu người ngốc này anh đã gặp rất nhiều. Họ đã quen với đô thị phồn hoa, gặp chút khó khăn là muốn trốn chạy, đa số đều sẽ chạy tới Vân Nam mở quán café, muốn thắp lên mùa xuân thứ hai trong con đường sự nghiệp. Họ kiên trì được hơn năm rưỡi, toàn bộ tiền bạc tích luỹ bấy lâu đã tiêu sạch, cuối cùng chỉ đành cuốn gói quay về làm trâu làm ngựa.\n\nTrì Tiêu muốn làm người tốt nên hết lòng giúp đỡ, kết quả đã buộc cả bản thân mình vào cô.",
+  "cover": "cover.svg",
+  "genres": [
+    "Ngôn Tình",
+    "Khác",
+    "Tiên Hiệp",
+    "Huyền Huyễn",
+    "Dị Giới",
+    "Kiếm Hiệp",
+    "Ngược",
+    "Sủng",
+    "Trọng Sinh"
+  ],
+  "status": "Hoàn thành",
+  "chapterCount": 81,
+  "chapters": [
+    {
+      "id": "chapter-0001",
+      "number": 1,
+      "title": "Chương 1: Trạm 1 – Đằng Xung",
+      "path": "novels/novel-0003/chapters/0001.json.br",
+      "charCount": 12652
+    },
+    {
+      "id": "chapter-0002",
+      "number": 2,
+      "title": "Chương 2: Cổ trấn Hoà Thuận – Trạm Đằng Xung",
+      "path": "novels/novel-0003/chapters/0002.json.br",
+      "charCount": 15305
+    },
+    {
+      "id": "chapter-0003",
+      "number": 3,
+      "title": "Chương 3: Lần gặp mặt thứ 1, 2, 3 – Trạm Đằng Xung",
+      "path": "novels/novel-0003/chapters/0003.json.br",
+      "charCount": 15326
+    },
+    {
+      "id": "chapter-0004",
+      "number": 4,
+      "title": "Chương 4: Ông chủ tốt gì chứ – Trạm Đằng Xung",
+      "path": "novels/novel-0003/chapters/0004.json.br",
+      "charCount": 17926
+    },
+    {
+      "id": "chapter-0005",
+      "number": 5,
+      "title": "Chương 5: Gặp nhau – Trạm Đằng Xung",
+      "path": "novels/novel-0003/chapters/0005.json.br",
+      "charCount": 18089
+    },
+    {
+      "id": "chapter-0006",
+      "number": 6,
+      "title": "Chương 6: Anh cười lên trông rất đẹp trai – Trạm Đằng Xung",
+      "path": "novels/novel-0003/chapters/0006.json.br",
+      "charCount": 13253
+    },
+    {
+      "id": "chapter-0007",
+      "number": 7,
+      "title": "Chương 7: Cảm giác thư thái – Trạm Đằng Xung",
+      "path": "novels/novel-0003/chapters/0007.json.br",
+      "charCount": 11201
+    },
+    {
+      "id": "chapter-0008",
+      "number": 8,
+      "title": "Chương 8: Cô gái hái nấm – Trạm Đằng Xung",
+      "path": "novels/novel-0003/chapters/0008.json.br",
+      "charCount": 10121
+    },
+    {
+      "id": "chapter-0009",
+      "number": 9,
+      "title": "Chương 9: Giang hồ không gặp lại – Trạm Đằng Xung",
+      "path": "novels/novel-0003/chapters/0009.json.br",
+      "charCount": 16635
+    },
+    {
+      "id": "chapter-0010",
+      "number": 10,
+      "title": "Chương 10: Wow – Trạm Đằng Xung",
+      "path": "novels/novel-0003/chapters/0010.json.br",
+      "charCount": 16028
+    },
+    {
+      "id": "chapter-0011",
+      "number": 11,
+      "title": "Chương 11: Làm quen lại từ đầu – Trạm Đằng Xung",
+      "path": "novels/novel-0003/chapters/0011.json.br",
+      "charCount": 25358
+    },
+    {
+      "id": "chapter-0012",
+      "number": 12,
+      "title": "Chương 12: Xin chào Thuỵ Lệ – Trạm Thuỵ Lệ",
+      "path": "novels/novel-0003/chapters/0012.json.br",
+      "charCount": 14407
+    },
+    {
+      "id": "chapter-0013",
+      "number": 13,
+      "title": "Chương 13: Là bạn bè thì giúp cái đi – Trạm Thuỵ Lệ",
+      "path": "novels/novel-0003/chapters/0013.json.br",
+      "charCount": 20066
+    },
+    {
+      "id": "chapter-0014",
+      "number": 14,
+      "title": "Chương 14: Bạc hà thành tinh rồi – Trạm Thuỵ Lệ",
+      "path": "novels/novel-0003/chapters/0014.json.br",
+      "charCount": 14780
+    },
+    {
+      "id": "chapter-0015",
+      "number": 15,
+      "title": "Chương 15: Thẻ người tốt – Trạm Thuỵ Lệ",
+      "path": "novels/novel-0003/chapters/0015.json.br",
+      "charCount": 15444
+    },
+    {
+      "id": "chapter-0016",
+      "number": 16,
+      "title": "Chương 16: Lĩnh ngộ – Trạm Thuỵ Lệ",
+      "path": "novels/novel-0003/chapters/0016.json.br",
+      "charCount": 26693
+    },
+    {
+      "id": "chapter-0017",
+      "number": 17,
+      "title": "Chương 17: Bản lĩnh mê hoặc lòng người – Trạm Thuỵ Lệ",
+      "path": "novels/novel-0003/chapters/0017.json.br",
+      "charCount": 19208
+    },
+    {
+      "id": "chapter-0018",
+      "number": 18,
+      "title": "Chương 18: Không phải bạn gái – Trạm Thuỵ Lệ",
+      "path": "novels/novel-0003/chapters/0018.json.br",
+      "charCount": 16311
+    },
+    {
+      "id": "chapter-0019",
+      "number": 19,
+      "title": "Chương 19: Vui vẻ đắm chìm trong đó – Trạm Thuỵ Lệ",
+      "path": "novels/novel-0003/chapters/0019.json.br",
+      "charCount": 19082
+    },
+    {
+      "id": "chapter-0020",
+      "number": 20,
+      "title": "Chương 20: Lòng người như phỉ thuý – Trạm Thuỵ Lệ",
+      "path": "novels/novel-0003/chapters/0020.json.br",
+      "charCount": 21169
+    },
+    {
+      "id": "chapter-0021",
+      "number": 21,
+      "title": "Chương 21: Gặp gỡ là một kỳ tích – Trạm Thuỵ Lệ",
+      "path": "novels/novel-0003/chapters/0021.json.br",
+      "charCount": 32437
+    },
+    {
+      "id": "chapter-0022",
+      "number": 22,
+      "title": "Chương 22: Đường ai nấy đi – Trạm Thuỵ Lệ",
+      "path": "novels/novel-0003/chapters/0022.json.br",
+      "charCount": 36103
+    },
+    {
+      "id": "chapter-0023",
+      "number": 23,
+      "title": "Chương 23: Cây hoa quế dưới ánh trăng – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0023.json.br",
+      "charCount": 31228
+    },
+    {
+      "id": "chapter-0024",
+      "number": 24,
+      "title": "Chương 24: Chuyện ngày mai cứ để mai tính – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0024.json.br",
+      "charCount": 26350
+    },
+    {
+      "id": "chapter-0025",
+      "number": 25,
+      "title": "Chương 25: Quả ác quỷ và cơ bụng socola – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0025.json.br",
+      "charCount": 29672
+    },
+    {
+      "id": "chapter-0026",
+      "number": 26,
+      "title": "Chương 26: Tình yêu, khoan dung và tự do – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0026.json.br",
+      "charCount": 16008
+    },
+    {
+      "id": "chapter-0027",
+      "number": 27,
+      "title": "Chương 27: Có thể nhìn thấy mặt trăng là tôi vui – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0027.json.br",
+      "charCount": 28131
+    },
+    {
+      "id": "chapter-0028",
+      "number": 28,
+      "title": "Chương 28: Từ từ – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0028.json.br",
+      "charCount": 19586
+    },
+    {
+      "id": "chapter-0029",
+      "number": 29,
+      "title": "Chương 29: Anh nói xem, em ở lại Đại Lý có được không – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0029.json.br",
+      "charCount": 14695
+    },
+    {
+      "id": "chapter-0030",
+      "number": 30,
+      "title": "Chương 30: Cướp! Tên cướp nhìn trộm – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0030.json.br",
+      "charCount": 25670
+    },
+    {
+      "id": "chapter-0031",
+      "number": 31,
+      "title": "Chương 31: Hoàng hôn, đêm tối, khoảnh khắc ấy, vĩnh hằng – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0031.json.br",
+      "charCount": 26522
+    },
+    {
+      "id": "chapter-0032",
+      "number": 32,
+      "title": "Chương 32: Khả năng tự kiềm chế của anh không tốt lắm – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0032.json.br",
+      "charCount": 16874
+    },
+    {
+      "id": "chapter-0033",
+      "number": 33,
+      "title": "Chương 33: Người cá – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0033.json.br",
+      "charCount": 29129
+    },
+    {
+      "id": "chapter-0034",
+      "number": 34,
+      "title": "Chương 34: Cứu người cứu tới cùng – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0034.json.br",
+      "charCount": 43977
+    },
+    {
+      "id": "chapter-0035",
+      "number": 35,
+      "title": "Chương 35: Lúc này, trăng gió đẹp đến vô cùng – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0035.json.br",
+      "charCount": 14168
+    },
+    {
+      "id": "chapter-0036",
+      "number": 36,
+      "title": "Chương 36: Cô nói sớm mình là người nổi tiếng trên mạng có hơn không – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0036.json.br",
+      "charCount": 17246
+    },
+    {
+      "id": "chapter-0037",
+      "number": 37,
+      "title": "Chương 37: Cảnh vật thiên nhiên vẫn còn đây – Trạm Đại Lý",
+      "path": "novels/novel-0003/chapters/0037.json.br",
+      "charCount": 35354
+    },
+    {
+      "id": "chapter-0038",
+      "number": 38,
+      "title": "Chương 38: Là Hề Việt hay Mặt trăng nhỏ – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0038.json.br",
+      "charCount": 17892
+    },
+    {
+      "id": "chapter-0039",
+      "number": 39,
+      "title": "Chương 39: Tôi thật sự, tôi của tất cả – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0039.json.br",
+      "charCount": 31163
+    },
+    {
+      "id": "chapter-0040",
+      "number": 40,
+      "title": "Chương 40: Được voi đòi tiên – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0040.json.br",
+      "charCount": 14057
+    },
+    {
+      "id": "chapter-0041",
+      "number": 41,
+      "title": "Chương 41: Tôi hy vọng mãi mãi được yêu thương – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0041.json.br",
+      "charCount": 20567
+    },
+    {
+      "id": "chapter-0042",
+      "number": 42,
+      "title": "Chương 42: Bình thường em không soi gương à – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0042.json.br",
+      "charCount": 12857
+    },
+    {
+      "id": "chapter-0043",
+      "number": 43,
+      "title": "Chương 43: Núi tuyết Ngọc Long – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0043.json.br",
+      "charCount": 22164
+    },
+    {
+      "id": "chapter-0044",
+      "number": 44,
+      "title": "Chương 44: Em tính giải quyết anh thế nào – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0044.json.br",
+      "charCount": 20901
+    },
+    {
+      "id": "chapter-0045",
+      "number": 45,
+      "title": "Chương 45: Hai người không ở cùng một phòng sao – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0045.json.br",
+      "charCount": 25676
+    },
+    {
+      "id": "chapter-0046",
+      "number": 46,
+      "title": "Chương 46: Anh ấy muốn ở bên cô cả đời – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0046.json.br",
+      "charCount": 21655
+    },
+    {
+      "id": "chapter-0047",
+      "number": 47,
+      "title": "Chương 47: Núi tuyết không chấp nhận em – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0047.json.br",
+      "charCount": 18833
+    },
+    {
+      "id": "chapter-0048",
+      "number": 48,
+      "title": "Chương 48: Sân khấu lớn của cuộc đời – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0048.json.br",
+      "charCount": 13143
+    },
+    {
+      "id": "chapter-0049",
+      "number": 49,
+      "title": "Chương 49: Bạn của phiên bản dũng cảm – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0049.json.br",
+      "charCount": 19638
+    },
+    {
+      "id": "chapter-0050",
+      "number": 50,
+      "title": "Chương 50: Tình yêu là con đường hai chiều – Trạm Lệ Giang",
+      "path": "novels/novel-0003/chapters/0050.json.br",
+      "charCount": 39743
+    },
+    {
+      "id": "chapter-0051",
+      "number": 51,
+      "title": "Chương 51: Em cho phép anh đột nhiên biến mất – Trạm Shangri-La",
+      "path": "novels/novel-0003/chapters/0051.json.br",
+      "charCount": 16425
+    },
+    {
+      "id": "chapter-0052",
+      "number": 52,
+      "title": "Chương 52: Hồ nước và dòng suối – Trạm Shangri-La",
+      "path": "novels/novel-0003/chapters/0052.json.br",
+      "charCount": 16444
+    },
+    {
+      "id": "chapter-0053",
+      "number": 53,
+      "title": "Chương 53: Ngày tháng trong tim – Trạm Shangri-La",
+      "path": "novels/novel-0003/chapters/0053.json.br",
+      "charCount": 18599
+    },
+    {
+      "id": "chapter-0054",
+      "number": 54,
+      "title": "Chương 54: Có phải anh không được không – Trạm Shangri-La",
+      "path": "novels/novel-0003/chapters/0054.json.br",
+      "charCount": 20014
+    },
+    {
+      "id": "chapter-0055",
+      "number": 55,
+      "title": "Chương 55: Lần đầu – Trạm Shangri-La",
+      "path": "novels/novel-0003/chapters/0055.json.br",
+      "charCount": 33901
+    },
+    {
+      "id": "chapter-0056",
+      "number": 56,
+      "title": "Chương 56: Núi dát vàng – Trạm Shangri-La",
+      "path": "novels/novel-0003/chapters/0056.json.br",
+      "charCount": 18532
+    },
+    {
+      "id": "chapter-0057",
+      "number": 57,
+      "title": "Chương 57: Mặt trăng, anh không hối hận – Trạm Shangri-La",
+      "path": "novels/novel-0003/chapters/0057.json.br",
+      "charCount": 22643
+    },
+    {
+      "id": "chapter-0058",
+      "number": 58,
+      "title": "Chương 58: Blog du lịch 1",
+      "path": "novels/novel-0003/chapters/0058.json.br",
+      "charCount": 7165
+    },
+    {
+      "id": "chapter-0059",
+      "number": 59,
+      "title": "Chương 59: Blog du lịch 2",
+      "path": "novels/novel-0003/chapters/0059.json.br",
+      "charCount": 8305
+    },
+    {
+      "id": "chapter-0060",
+      "number": 60,
+      "title": "Chương 60: Blog du lịch 3",
+      "path": "novels/novel-0003/chapters/0060.json.br",
+      "charCount": 9403
+    },
+    {
+      "id": "chapter-0061",
+      "number": 61,
+      "title": "Chương 61: Blog du lịch 4",
+      "path": "novels/novel-0003/chapters/0061.json.br",
+      "charCount": 7722
+    },
+    {
+      "id": "chapter-0062",
+      "number": 62,
+      "title": "Chương 62: Blog du lịch 5",
+      "path": "novels/novel-0003/chapters/0062.json.br",
+      "charCount": 31097
+    },
+    {
+      "id": "chapter-0063",
+      "number": 63,
+      "title": "Chương 63: Blog du lịch 6",
+      "path": "novels/novel-0003/chapters/0063.json.br",
+      "charCount": 14853
+    },
+    {
+      "id": "chapter-0064",
+      "number": 64,
+      "title": "Chương 64: Blog du lịch 7",
+      "path": "novels/novel-0003/chapters/0064.json.br",
+      "charCount": 12004
+    },
+    {
+      "id": "chapter-0065",
+      "number": 65,
+      "title": "Chương 65: Blog du lịch 8",
+      "path": "novels/novel-0003/chapters/0065.json.br",
+      "charCount": 9673
+    },
+    {
+      "id": "chapter-0066",
+      "number": 66,
+      "title": "Chương 66: Blog du lịch 9",
+      "path": "novels/novel-0003/chapters/0066.json.br",
+      "charCount": 9795
+    },
+    {
+      "id": "chapter-0067",
+      "number": 67,
+      "title": "Chương 67: Blog du lịch 10",
+      "path": "novels/novel-0003/chapters/0067.json.br",
+      "charCount": 17765
+    },
+    {
+      "id": "chapter-0068",
+      "number": 68,
+      "title": "Chương 68: Blog du lịch 11",
+      "path": "novels/novel-0003/chapters/0068.json.br",
+      "charCount": 8174
+    },
+    {
+      "id": "chapter-0069",
+      "number": 69,
+      "title": "Chương 69: Blog du lịch 12",
+      "path": "novels/novel-0003/chapters/0069.json.br",
+      "charCount": 14891
+    },
+    {
+      "id": "chapter-0070",
+      "number": 70,
+      "title": "Chương 70: Blog du lịch 13",
+      "path": "novels/novel-0003/chapters/0070.json.br",
+      "charCount": 14702
+    },
+    {
+      "id": "chapter-0071",
+      "number": 71,
+      "title": "Chương 71: Blog du lịch 14",
+      "path": "novels/novel-0003/chapters/0071.json.br",
+      "charCount": 12883
+    },
+    {
+      "id": "chapter-0072",
+      "number": 72,
+      "title": "Chương 72: Ngoại truyện 1: Đưa anh về Vân Nam",
+      "path": "novels/novel-0003/chapters/0072.json.br",
+      "charCount": 15082
+    },
+    {
+      "id": "chapter-0073",
+      "number": 73,
+      "title": "Chương 73: Ngoại truyện 2: Phổ Nhĩ, lá trà, núi Cảnh Mại",
+      "path": "novels/novel-0003/chapters/0073.json.br",
+      "charCount": 17850
+    },
+    {
+      "id": "chapter-0074",
+      "number": 74,
+      "title": "Chương 74: Ngoại truyện 3: Tây Song Bản Nạp, bướm xanh ánh kim, lễ hội tạt nước",
+      "path": "novels/novel-0003/chapters/0074.json.br",
+      "charCount": 36442
+    },
+    {
+      "id": "chapter-0075",
+      "number": 75,
+      "title": "Chương 75: Ngoại truyện 4: Hồng Hà, Đông Nam Vân Nam, ăn ăn ăn",
+      "path": "novels/novel-0003/chapters/0075.json.br",
+      "charCount": 21403
+    },
+    {
+      "id": "chapter-0076",
+      "number": 76,
+      "title": "Chương 76: Ngoại truyện 5: Sở Hùng, câu chuyện trước khi ngủ, lễ hội đuốc",
+      "path": "novels/novel-0003/chapters/0076.json.br",
+      "charCount": 20238
+    },
+    {
+      "id": "chapter-0077",
+      "number": 77,
+      "title": "Chương 77: Ngoại truyện 6: Địch Khánh, người có duyên, làng Vũ Băng",
+      "path": "novels/novel-0003/chapters/0077.json.br",
+      "charCount": 22161
+    },
+    {
+      "id": "chapter-0078",
+      "number": 78,
+      "title": "Chương 78: Ngoại truyện 7: Lệ Giang, nữ sĩ Kiến Hoa, hồ Lộ Khiết",
+      "path": "novels/novel-0003/chapters/0078.json.br",
+      "charCount": 30025
+    },
+    {
+      "id": "chapter-0079",
+      "number": 79,
+      "title": "Chương 79: Ngoại truyện 8: Đại Lí, hoa đăng cá chép, câu chuyện tình yêu",
+      "path": "novels/novel-0003/chapters/0079.json.br",
+      "charCount": 12885
+    },
+    {
+      "id": "chapter-0080",
+      "number": 80,
+      "title": "Chương 80: Ngoại truyện 9: Đại Lí, pháo hoa, giàn nho",
+      "path": "novels/novel-0003/chapters/0080.json.br",
+      "charCount": 32381
+    },
+    {
+      "id": "chapter-0081",
+      "number": 81,
+      "title": "Chương 81: Blog du lịch 15 (Hoàn toàn văn)",
+      "path": "novels/novel-0003/chapters/0081.json.br",
+      "charCount": 11646
+    }
+  ],
+  "updatedAt": "2026-09-19T14:18:33.838223+00:00"
+}

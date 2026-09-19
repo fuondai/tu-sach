@@ -1,203 +1,294 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tủ Sách Gia Đình</title>
-    <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="description" content="Tủ Sách Gia Đình - Đọc truyện trực tuyến không quảng cáo, tối ưu cho mắt và người lớn tuổi.">
+  <meta name="theme-color" content="#fbf0d9">
+  <title>Tủ Sách Gia Đình</title>
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="./assets/index-CbNPJ8rT.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-TpX3-lXr.css">
 </head>
-<body data-theme="sepia" data-font="serif" data-width="medium">
-    <div id="reading-progress-container">
-        <div id="reading-progress-bar"></div>
+<body data-theme="sepia" data-font="serif" data-width="medium" data-mode="scroll" class="paper-texture-active">
+  <div id="reading-progress-container">
+    <div id="reading-progress-bar"></div>
+  </div>
+
+  <header id="site-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <button id="btn-library" class="nav-brand-btn" type="button">
+          <img src="assets/logo.svg" alt="Logo" class="header-logo">
+          <span class="brand-name">Tủ Sách</span>
+        </button>
+        <button id="btn-story-detail" class="nav-btn" type="button">Chi tiết</button>
+        <button id="btn-toc-toggle" class="nav-btn" type="button">Mục lục & Ghi chú</button>
+      </div>
+      <div class="header-center">
+        <span id="header-story-title">Đầu Xuân Tươi Sáng</span>
+        <span id="header-chapter-badge">Chương 1</span>
+      </div>
+      <div class="header-right">
+        <div class="reader-tool-group">
+          <button id="btn-header-bookmark" class="nav-btn reader-only-btn" type="button" title="Đánh dấu trang này">Đánh dấu</button>
+          <button id="btn-header-note" class="nav-btn reader-only-btn" type="button" title="Ghi chú suy nghĩ">Ghi chú</button>
+          <button id="btn-header-mode-toggle" class="nav-btn reader-only-btn" type="button" title="Chuyển chế độ đọc">Lật sách</button>
+        </div>
+        <div class="quick-font-zoom">
+          <button id="btn-quick-font-dec" class="font-zoom-btn" type="button" title="Chữ nhỏ hơn">A -</button>
+          <button id="btn-quick-font-inc" class="font-zoom-btn" type="button" title="Chữ to hơn">A +</button>
+        </div>
+        <button id="btn-settings-toggle" class="nav-btn" type="button">Cài đặt</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app-container">
+    <section id="library-view" class="view-section">
+      <div class="library-header">
+        <div class="library-brand-block">
+          <img src="assets/logo.svg" alt="Logo Tủ Sách" class="library-hero-logo">
+          <div>
+            <h1 class="library-main-title">Tủ Sách Gia Đình</h1>
+            <p class="library-subtitle">Không gian đọc sách văn minh, chất liệu giấy dịu mắt, chữ to thanh nhã cho gia đình.</p>
+          </div>
+        </div>
+        <div class="library-search-wrap">
+          <input type="text" id="library-search-input" class="search-input" placeholder="Tìm tên sách hoặc tác giả...">
+        </div>
+      </div>
+
+      <div class="shelf-tabs-bar">
+        <button class="shelf-tab active" data-shelf="all" type="button">Tất cả tác phẩm</button>
+        <button class="shelf-tab" data-shelf="recommend" type="button">Đề xuất chọn lọc</button>
+        <button class="shelf-tab" data-shelf="saved" type="button">Đã lưu đọc sau (<span id="saved-shelf-count">0</span>)</button>
+        <button class="shelf-tab" data-shelf="history" type="button">Lịch sử đọc</button>
+      </div>
+
+      <div id="featured-spotlight-area" class="featured-spotlight-area"></div>
+
+      <div id="category-filter-bar" class="category-filter-bar"></div>
+      <div id="library-grid" class="library-grid"></div>
+    </section>
+
+    <section id="overview-view" class="view-section hidden">
+      <div class="overview-back-bar">
+        <button id="btn-back-to-library" class="secondary-nav-btn" type="button">Quay lại Tủ Sách</button>
+      </div>
+      <div class="overview-card">
+        <div class="overview-cover-wrap">
+          <img id="story-cover-img" src="assets/cover.jpg" alt="Bìa truyện">
+        </div>
+        <div class="overview-details">
+          <h1 id="story-title">Tên truyện</h1>
+          <div class="story-metadata">
+            <div class="meta-item"><span class="meta-label">Tác giả:</span> <span id="story-author" class="meta-value"></span></div>
+            <div class="meta-item"><span class="meta-label">Thể loại:</span> <span id="story-categories" class="meta-value"></span></div>
+            <div class="meta-item"><span class="meta-label">Trạng thái:</span> <span id="story-status" class="meta-value"></span></div>
+            <div class="meta-item"><span class="meta-label">Số chương:</span> <span id="story-total-chapters" class="meta-value"></span></div>
+          </div>
+          <div class="overview-actions">
+            <button id="btn-read-first" class="action-btn primary-btn" type="button">Bắt đầu đọc</button>
+            <button id="btn-continue-reading" class="action-btn secondary-btn" type="button">Đọc tiếp</button>
+            <button id="btn-overview-save-toggle" class="action-btn outline-btn" type="button">Lưu đọc sau</button>
+          </div>
+          <div class="story-description-wrap">
+            <h2>Tóm tắt tác phẩm</h2>
+            <div id="story-description-text" class="story-description"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="overview-recommendations-section" class="overview-recommendations-section">
+        <h2 class="section-heading">Tác phẩm cùng thể loại đề xuất</h2>
+        <div id="overview-recommendations-grid" class="recommendations-grid"></div>
+      </div>
+
+      <div class="overview-chapters-section">
+        <div class="overview-chapters-header">
+          <h2 id="overview-chapters-title">Danh sách các chương</h2>
+          <input type="text" id="overview-search-input" class="search-input" placeholder="Tìm tên chương hoặc số chương...">
+        </div>
+        <div id="overview-chapters-grid" class="chapters-grid"></div>
+      </div>
+    </section>
+
+    <section id="reader-view" class="view-section hidden">
+      <div id="reader-container" class="reader-container">
+        <div class="reader-top-nav">
+          <button id="btn-prev-top" class="chapter-nav-btn prev-btn" type="button">Chương trước</button>
+          <select id="select-chapter-top" class="chapter-select"></select>
+          <button id="btn-next-top" class="chapter-nav-btn next-btn" type="button">Chương sau</button>
+        </div>
+
+        <div class="chapter-header-area">
+          <h2 id="chapter-display-title">Tiêu đề chương</h2>
+          <div class="chapter-info-meta">
+            <span id="chapter-char-count">0 chữ</span>
+            <span class="meta-divider">·</span>
+            <span id="chapter-read-time">3 phút đọc</span>
+          </div>
+        </div>
+
+        <div id="flip-viewport-wrapper" class="flip-viewport-wrapper">
+          <div id="flip-tap-left" class="flip-tap-zone left-zone" title="Trang trước"></div>
+          <div id="flip-tap-right" class="flip-tap-zone right-zone" title="Trang sau"></div>
+          <article id="chapter-content-body" class="chapter-text"></article>
+        </div>
+
+        <div id="flip-page-controls" class="flip-page-controls">
+          <button id="btn-flip-prev" class="flip-btn" type="button">Trang trước</button>
+          <span id="flip-page-status">Trang 1 / 1</span>
+          <button id="btn-flip-next" class="flip-btn" type="button">Trang sau</button>
+        </div>
+
+        <div class="reader-bottom-nav">
+          <button id="btn-prev-bottom" class="chapter-nav-btn prev-btn" type="button">Chương trước</button>
+          <select id="select-chapter-bottom" class="chapter-select"></select>
+          <button id="btn-next-bottom" class="chapter-nav-btn next-btn" type="button">Chương sau</button>
+        </div>
+
+        <div class="reader-shortcut-hint">
+          <span>Phím tắt: Dùng mũi tên Trái / Phải trên bàn phím để chuyển trang hoặc chuyển chương.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal-backdrop" class="modal-backdrop hidden"></div>
+
+  <aside id="toc-drawer" class="drawer hidden">
+    <div class="drawer-header">
+      <div class="drawer-tabs">
+        <button class="drawer-tab active" data-drawer-tab="chapters" type="button">Mục lục</button>
+        <button class="drawer-tab" data-drawer-tab="bookmarks" type="button">Dấu trang (<span id="tab-bookmarks-count">0</span>)</button>
+        <button class="drawer-tab" data-drawer-tab="notes" type="button">Ghi chú (<span id="tab-notes-count">0</span>)</button>
+      </div>
+      <button id="btn-close-toc" class="close-btn" type="button">Đóng</button>
     </div>
 
-    <header id="site-header">
-        <div class="header-inner">
-            <div class="header-left">
-                <button id="btn-library" class="nav-brand-btn" type="button">
-                    <img src="assets/logo.svg" alt="Logo" class="header-logo">
-                    <span class="brand-name">Tủ Sách</span>
-                </button>
-                <button id="btn-story-detail" class="nav-btn" type="button">Chi tiết</button>
-                <button id="btn-toc-toggle" class="nav-btn" type="button">Mục lục</button>
-            </div>
-            <div class="header-center">
-                <span id="header-story-title">Đầu Xuân Tươi Sáng</span>
-                <span id="header-chapter-badge">Chương 1</span>
-            </div>
-            <div class="header-right">
-                <div class="quick-font-zoom">
-                    <button id="btn-quick-font-dec" class="font-zoom-btn" type="button" title="Chữ nhỏ hơn">A -</button>
-                    <button id="btn-quick-font-inc" class="font-zoom-btn" type="button" title="Chữ to hơn">A +</button>
-                </div>
-                <button id="btn-settings-toggle" class="nav-btn" type="button">Cài đặt</button>
-            </div>
-        </div>
-    </header>
-
-    <main id="app-container">
-        <section id="library-view" class="view-section">
-            <div class="library-header">
-                <div class="library-brand-block">
-                    <img src="assets/logo.svg" alt="Logo Tủ Sách" class="library-hero-logo">
-                    <div>
-                        <h1 class="library-main-title">Tủ Sách Gia Đình</h1>
-                        <p class="library-subtitle">Không gian đọc sách thư thái, chữ to dễ đọc, thoải mái cho mắt.</p>
-                    </div>
-                </div>
-                <div class="library-search-wrap">
-                    <input type="text" id="library-search-input" class="search-input" placeholder="Tìm tên sách hoặc tác giả...">
-                </div>
-            </div>
-            <div id="category-filter-bar" class="category-filter-bar"></div>
-            <div id="library-grid" class="library-grid"></div>
-        </section>
-
-        <section id="overview-view" class="view-section hidden">
-            <div class="overview-back-bar">
-                <button id="btn-back-to-library" class="secondary-nav-btn" type="button">Quay lại Tủ Sách</button>
-            </div>
-            <div class="overview-card">
-                <div class="overview-cover-wrap">
-                    <img id="story-cover-img" src="assets/dau-xuan-tuoi-sang.jpg" alt="Bìa truyện">
-                </div>
-                <div class="overview-details">
-                    <h1 id="story-title">Tên truyện</h1>
-                    <div class="story-metadata">
-                        <div class="meta-item"><span class="meta-label">Tác giả:</span> <span id="story-author" class="meta-value"></span></div>
-                        <div class="meta-item"><span class="meta-label">Thể loại:</span> <span id="story-categories" class="meta-value"></span></div>
-                        <div class="meta-item"><span class="meta-label">Trạng thái:</span> <span id="story-status" class="meta-value"></span></div>
-                        <div class="meta-item"><span class="meta-label">Số chương:</span> <span id="story-total-chapters" class="meta-value"></span></div>
-                    </div>
-                    <div class="overview-actions">
-                        <button id="btn-read-first" class="action-btn primary-btn" type="button">Bắt đầu đọc</button>
-                        <button id="btn-continue-reading" class="action-btn secondary-btn" type="button">Đọc tiếp</button>
-                    </div>
-                    <div class="story-description-wrap">
-                        <h2>Tóm tắt tác phẩm</h2>
-                        <div id="story-description-text" class="story-description"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="overview-chapters-section">
-                <div class="overview-chapters-header">
-                    <h2 id="overview-chapters-title">Danh sách các chương</h2>
-                    <input type="text" id="overview-search-input" class="search-input" placeholder="Tìm tên chương hoặc số chương...">
-                </div>
-                <div id="overview-chapters-grid" class="chapters-grid"></div>
-            </div>
-        </section>
-
-        <section id="reader-view" class="view-section hidden">
-            <div class="reader-container">
-                <div class="reader-top-nav">
-                    <button id="btn-prev-top" class="chapter-nav-btn prev-btn" type="button">Chương trước</button>
-                    <select id="select-chapter-top" class="chapter-select"></select>
-                    <button id="btn-next-top" class="chapter-nav-btn next-btn" type="button">Chương sau</button>
-                </div>
-
-                <div class="chapter-header-area">
-                    <h2 id="chapter-display-title">Tiêu đề chương</h2>
-                    <div class="chapter-info-meta">
-                        <span id="chapter-char-count">0 từ</span>
-                    </div>
-                </div>
-
-                <article id="chapter-content-body" class="chapter-text"></article>
-
-                <div class="reader-bottom-nav">
-                    <button id="btn-prev-bottom" class="chapter-nav-btn prev-btn" type="button">Chương trước</button>
-                    <select id="select-chapter-bottom" class="chapter-select"></select>
-                    <button id="btn-next-bottom" class="chapter-nav-btn next-btn" type="button">Chương sau</button>
-                </div>
-
-                <div class="reader-shortcut-hint">
-                    <span>Mẹo: Bạn có thể nhấn phím mũi tên Trái / Phải để lật chương nhanh.</span>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <div id="modal-backdrop" class="modal-backdrop hidden"></div>
-
-    <aside id="toc-drawer" class="drawer hidden">
-        <div class="drawer-header">
-            <h3 id="toc-drawer-title">Mục lục</h3>
-            <button id="btn-close-toc" class="close-btn" type="button">Đóng</button>
-        </div>
-        <div class="drawer-search">
-            <input type="text" id="toc-search-input" class="search-input" placeholder="Tìm kiếm chương...">
-        </div>
-        <div id="toc-list-container" class="toc-list"></div>
-    </aside>
-
-    <div id="settings-modal" class="settings-modal hidden">
-        <div class="settings-header">
-            <h3>Tùy chỉnh cỡ chữ và màu sắc</h3>
-            <button id="btn-close-settings" class="close-btn" type="button">Đóng</button>
-        </div>
-        <div class="settings-body">
-            <div class="setting-group">
-                <label class="setting-label">Màu nền dịu mắt</label>
-                <div class="theme-options">
-                    <button class="theme-btn" data-theme-val="sepia" type="button">Giấy vàng Sepia</button>
-                    <button class="theme-btn" data-theme-val="light" type="button">Sáng</button>
-                    <button class="theme-btn" data-theme-val="dark" type="button">Tối</button>
-                    <button class="theme-btn" data-theme-val="oled" type="button">Đen tuyền</button>
-                </div>
-            </div>
-
-            <div class="setting-group">
-                <label class="setting-label">Cỡ chữ đọc sách</label>
-                <div class="size-controls">
-                    <button id="btn-dec-font" class="size-btn" type="button">Chữ nhỏ (A-)</button>
-                    <span id="current-font-size-text">21px</span>
-                    <button id="btn-inc-font" class="size-btn" type="button">Chữ to (A+)</button>
-                </div>
-            </div>
-
-            <div class="setting-group">
-                <label class="setting-label">Kiểu chữ</label>
-                <div class="font-options">
-                    <button class="font-btn" data-font-val="serif" type="button">Chữ sách có chân (Merriweather)</button>
-                    <button class="font-btn" data-font-val="sans" type="button">Chữ rõ nét không chân (Inter)</button>
-                </div>
-            </div>
-
-            <div class="setting-group">
-                <label class="setting-label">Khoảng cách giữa các dòng</label>
-                <div class="line-height-options">
-                    <button class="lh-btn" data-lh-val="1.8" type="button">Vừa vặn</button>
-                    <button class="lh-btn" data-lh-val="2.0" type="button">Thoáng đãng</button>
-                    <button class="lh-btn" data-lh-val="2.3" type="button">Rất rộng</button>
-                </div>
-            </div>
-
-            <div class="setting-group">
-                <label class="setting-label">Độ rộng trang sách</label>
-                <div class="width-options">
-                    <button class="width-btn" data-width-val="narrow" type="button">Vừa mắt</button>
-                    <button class="width-btn" data-width-val="medium" type="button">Tiêu chuẩn</button>
-                    <button class="width-btn" data-width-val="wide" type="button">Rộng</button>
-                </div>
-            </div>
-        </div>
+    <div id="drawer-panel-chapters" class="drawer-panel active">
+      <div class="drawer-search">
+        <input type="text" id="toc-search-input" class="search-input" placeholder="Tìm kiếm chương...">
+      </div>
+      <div id="toc-list-container" class="toc-list"></div>
     </div>
 
-    <footer id="site-footer">
-        <div class="footer-inner">
-            <p>Tủ Sách Gia Đình</p>
-            <p>Giao diện đọc truyện thư thái, phông chữ lớn, bảo vệ thị lực cho người lớn tuổi.</p>
+    <div id="drawer-panel-bookmarks" class="drawer-panel">
+      <div class="drawer-panel-header-action">
+        <button id="btn-add-bookmark-now" class="primary-mini-btn" type="button">Đánh dấu vị trí này</button>
+      </div>
+      <div id="bookmarks-list-container" class="bookmarks-list"></div>
+    </div>
+
+    <div id="drawer-panel-notes" class="drawer-panel">
+      <div class="drawer-panel-header-action">
+        <button id="btn-add-note-now" class="primary-mini-btn" type="button">Thêm ghi chú mới</button>
+      </div>
+      <div id="notes-list-container" class="notes-list"></div>
+    </div>
+  </aside>
+
+  <div id="note-modal" class="custom-modal hidden">
+    <div class="custom-modal-header">
+      <h3 id="note-modal-title">Ghi chú cá nhân</h3>
+      <button id="btn-close-note-modal" class="close-btn" type="button">Đóng</button>
+    </div>
+    <div class="custom-modal-body">
+      <div id="note-quote-box" class="note-quote-box hidden">
+        <span class="quote-label">Đoạn trích:</span>
+        <p id="note-quote-text" class="quote-text"></p>
+      </div>
+      <label class="setting-label" for="note-content-input">Cảm nghĩ hoặc ghi nhớ của bạn:</label>
+      <textarea id="note-content-input" class="note-textarea" rows="5" placeholder="Nhập ghi chú suy nghĩ cho chương này..."></textarea>
+      <div class="modal-actions">
+        <button id="btn-save-note" class="action-btn primary-btn" type="button">Lưu ghi chú</button>
+        <button id="btn-cancel-note" class="action-btn secondary-btn" type="button">Hủy</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="settings-modal" class="settings-modal hidden">
+    <div class="settings-header">
+      <h3>Tùy chỉnh không gian đọc sách</h3>
+      <button id="btn-close-settings" class="close-btn" type="button">Đóng</button>
+    </div>
+    <div class="settings-body">
+      <div class="setting-group">
+        <label class="setting-label">Chất liệu giấy & màu sắc</label>
+        <div class="theme-options">
+          <button class="theme-btn" data-theme-val="sepia" type="button">Giấy Sepia</button>
+          <button class="theme-btn" data-theme-val="paper" type="button">Giấy Tuyên Chỉ</button>
+          <button class="theme-btn" data-theme-val="vintage" type="button">Giấy Cổ Điển</button>
+          <button class="theme-btn" data-theme-val="green" type="button">Giấy Xanh Dịu</button>
+          <button class="theme-btn" data-theme-val="light" type="button">Giấy Trắng Sáng</button>
+          <button class="theme-btn" data-theme-val="dark" type="button">Đêm Ấm</button>
+          <button class="theme-btn" data-theme-val="oled" type="button">Đen OLED</button>
         </div>
-    </footer>
+      </div>
 
-    <div id="font-toast" class="font-toast hidden"></div>
+      <div class="setting-group">
+        <label class="setting-label">Hiệu ứng bề mặt giấy (Paper Texture)</label>
+        <div class="texture-options">
+          <button id="btn-texture-on" class="toggle-btn active" type="button">Bật chất liệu giấy</button>
+          <button id="btn-texture-off" class="toggle-btn" type="button">Tắt chất liệu giấy</button>
+        </div>
+      </div>
 
-    <script src="app.js"></script>
+      <div class="setting-group">
+        <label class="setting-label">Chế độ đọc</label>
+        <div class="mode-options">
+          <button class="mode-btn" data-mode-val="scroll" type="button">Cuộn dọc truyền thống</button>
+          <button class="mode-btn" data-mode-val="flip" type="button">Lật trang sách điện tử</button>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <label class="setting-label">Cỡ chữ đọc sách</label>
+        <div class="size-controls">
+          <button id="btn-dec-font" class="size-btn" type="button">Chữ nhỏ (A-)</button>
+          <span id="current-font-size-text">21px</span>
+          <button id="btn-inc-font" class="size-btn" type="button">Chữ to (A+)</button>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <label class="setting-label">Kiểu chữ</label>
+        <div class="font-options">
+          <button class="font-btn" data-font-val="serif" type="button">Chữ sách có chân (Merriweather)</button>
+          <button class="font-btn" data-font-val="sans" type="button">Chữ hiện đại không chân (Inter)</button>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <label class="setting-label">Khoảng cách giữa các dòng</label>
+        <div class="line-height-options">
+          <button class="lh-btn" data-lh-val="1.8" type="button">Vừa vặn</button>
+          <button class="lh-btn" data-lh-val="2.0" type="button">Thoáng đãng</button>
+          <button class="lh-btn" data-lh-val="2.3" type="button">Rất rộng</button>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <label class="setting-label">Độ rộng trang đọc</label>
+        <div class="width-options">
+          <button class="width-btn" data-width-val="narrow" type="button">Hẹp</button>
+          <button class="width-btn" data-width-val="medium" type="button">Vừa vặn</button>
+          <button class="width-btn" data-width-val="wide" type="button">Rộng</button>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <button id="btn-clear-cache" class="danger-btn" type="button">Xóa dữ liệu đã lưu tạm</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast-container" class="toast-container"></div>
+
 </body>
 </html>
