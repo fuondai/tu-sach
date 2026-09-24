@@ -10,8 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
-  <script type="module" crossorigin src="./assets/index-Bnwb_XYT.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-CGRO1pzL.css">
+  <script type="module" crossorigin src="./assets/index-BeC7ccDI.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-D_Bja7rE.css">
 </head>
 <body data-theme="sepia" data-font="serif" data-width="medium" data-mode="scroll" class="paper-texture-active">
   <div id="reading-progress-container">
@@ -65,6 +65,8 @@
       <div class="shelf-tabs-container">
         <div class="shelf-tabs-bar">
           <button class="shelf-tab active" data-shelf="all" type="button">Tất cả tác phẩm</button>
+          <button class="shelf-tab" data-shelf="full" type="button">Truyện Full</button>
+          <button class="shelf-tab" data-shelf="ongoing" type="button">Đang ra</button>
           <button class="shelf-tab" data-shelf="recommend" type="button">Đề xuất chọn lọc</button>
           <button class="shelf-tab" data-shelf="saved" type="button">Đã lưu đọc sau (<span id="saved-shelf-count">0</span>)</button>
           <button class="shelf-tab" data-shelf="history" type="button">Lịch sử đọc</button>
@@ -78,6 +80,12 @@
       </div>
 
       <div id="featured-spotlight-area" class="featured-spotlight-area"></div>
+
+      <div id="status-filter-bar" class="status-filter-bar">
+        <button class="status-filter-btn active" data-status-filter="all" type="button">Tất cả trạng thái</button>
+        <button class="status-filter-btn" data-status-filter="full" type="button">Truyện Full</button>
+        <button class="status-filter-btn" data-status-filter="ongoing" type="button">Đang ra</button>
+      </div>
 
       <div id="category-filter-bar" class="category-filter-bar"></div>
       <div id="library-grid" class="library-grid"></div>
